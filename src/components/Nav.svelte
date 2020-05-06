@@ -1,7 +1,7 @@
 <script>
-  import { stores } from '@sapper/app'
-  import { afterUpdate } from 'svelte'
-  const { page: currentPage } = stores()
+  import { stores } from "@sapper/app";
+  import { afterUpdate } from "svelte";
+  const { page: currentPage } = stores();
 
   /**
    * This is where you define the site structure.
@@ -9,112 +9,117 @@
    */
   let pages = [
     {
-      section: 'Design',
+      section: "Design",
       pages: [
         {
-          title: 'Logo',
-          path: '/design/logo/'
+          title: "Logo",
+          path: "/design/logo/"
         },
         {
-          title: 'Colors',
-          path: '/design/colors/'
+          title: "Colors",
+          path: "/design/colors/"
         },
         {
-          title: 'Iconography',
-          path: '/design/iconography/'
+          title: "Iconography",
+          path: "/design/iconography/"
         },
         {
-          title: 'Wording',
-          path: '/design/wording/'
+          title: "Wording",
+          path: "/design/wording/"
         },
         {
-          title: 'Typography',
-          path: '/design/typography/'
+          title: "Typography",
+          path: "/design/typography/"
         },
         {
-          title: 'Layout',
-          path: '/design/layout/'
+          title: "Layout",
+          path: "/design/layout/"
         }
       ]
     },
     {
-      section: 'Components',
+      section: "Components",
       pages: [
         {
-          title: 'Card',
-          path: '/components/card/'
+          title: "Buttons",
+          path: "/components/buttons/"
         },
         {
-          title: 'Buttons',
-          path: '/components/buttons/'
+          title: "Links",
+          path: "/components/links/"
         },
         {
-          title: 'Links',
-          path: '/components/links/'
+          title: "Input",
+          path: "/components/inputs/"
         },
         {
-          title: 'Search',
-          path: '/components/search/'
+          title: "Card",
+          path: "/components/card/"
         },
         {
-          title: 'Breadcrumbs',
-          path: '/components/breadcrumbs/'
+          title: "Search",
+          path: "/components/search/"
         },
         {
-          title: 'Input',
-          path: '/components/inputs/'
+          title: "Breadcrumbs",
+          path: "/components/breadcrumbs/"
         },
         {
-          title: 'Dialog (Modal)',
-          path: '/components/dialog/'
+          title: "Dialog (Modal)",
+          path: "/components/dialog/"
         },
         {
-          title: 'Listview',
-          path: '/components/listview/'
+          title: "Notification",
+          path: "/components/notifications/"
         },
         {
-          title: 'Galleryview',
-          path: '/components/galleryview/'
+          title: "Tooltip",
+          path: "/components/tooltips/"
         },
         {
-          title: 'Notification',
-          path: '/components/notifications/'
+          title: "Pagination",
+          path: "/components/pagination/"
+        }
+      ]
+    },
+    {
+      section: "Views",
+      pages: [
+        {
+          title: "Listview",
+          path: "/components/listview/"
         },
         {
-          title: 'Tooltip',
-          path: '/components/tooltips/'
-        },
-        {
-          title: 'Pagination',
-          path: '/components/pagination/'
+          title: "Galleryview",
+          path: "/components/galleryview/"
         }
       ]
     }
-  ]
+  ];
 
   // get the currently active page's title for html title
-  let currentTitle = ''
+  let currentTitle = "";
   currentPage.subscribe(changedCurrentPageEvent => {
     pages.map(s => {
-      let exists = s.pages.find(e => e.path === changedCurrentPageEvent.path)
-      if (exists) currentTitle = exists.title
-    })
-  })
+      let exists = s.pages.find(e => e.path === changedCurrentPageEvent.path);
+      if (exists) currentTitle = exists.title;
+    });
+  });
 
   // hack for adding location onto anchor links bc of base element, see https://github.com/sveltejs/sapper/issues/904
   let fixAnchors = () => {
-    ;[...document.querySelectorAll('a[href^="#"]')].map(
+    [...document.querySelectorAll('a[href^="#"]')].map(
       x => (x.href = document.location + new URL(x.href).hash)
-    )
-  }
+    );
+  };
 
   // run stuff after every update
   afterUpdate(async () => {
-    fixAnchors()
+    fixAnchors();
     setTimeout(() => {
-      if (Prism) Prism.highlightAll()
-    }, 0)
-  })
+      if (Prism) Prism.highlightAll();
+    }, 0);
+  });
 </script>
 
 <style>
@@ -170,7 +175,7 @@
     position: absolute;
     right: 0;
     top: 50%;
-    content: '';
+    content: "";
     display: block;
     width: 20px;
     height: 20px;
