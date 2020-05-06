@@ -125,8 +125,10 @@
     height: 100%;
     font-size: 1rem;
     padding-top: 1rem;
-    padding-bottom: 100px;
     flex-shrink: 0;
+    max-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   @media screen and (max-width: 550px) {
     nav {
