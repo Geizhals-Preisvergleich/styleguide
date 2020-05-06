@@ -1,0 +1,32 @@
+```js exec
+import Hint from '../../components/Hint.svelte';
+import Icon from '../../components/Icon.svelte';
+```
+
+# Wording
+
+## Form of Address
+
+Geizhals addresses their users informally using the german "Du" instead of "Sie".
+
+### Examples:
+- "Erhalte eine Benachrichtigung, wenn dein Wunschpreis für das Produkt erreicht ist."
+- "Hier kannst du eine neue Wunschliste anlegen."
+- "Hier kannst du die Einstellungen deines Preisalarms, z.B. Verfügbarkeit, Laufzeit oder Preislimit, bearbeiten."
+
+## Commonly used words/phrases
+
+<!--
+  Table Formatter: http://markdowntable.com/
+  Feel free to use a html table instead
+-->
+| Deutsch                 | English              | Polish | Comment                                      |
+|-------------------------|----------------------|--------|----------------------------------------------|
+| Abonnierte Suchen       | Search subscriptions |        |                                              |
+| (Die) E-Mail-Adresse    | Email address        |        |                                              |
+| (Die) E-Mail            | Email                |        | Only used if "E-Mail-Adresse" is too verbose |
+| Zum Angebot             | Go to store          |        |                                              |
+| Preisalarm              | Price alert          |        |                                              |
+| Wunschliste             | Wish list            |        |                                              |
+| Nicht erfasste Produkte | Not covered products |        | Avoid "Unsortiert" as it is too vague        |
+

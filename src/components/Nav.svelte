@@ -24,6 +24,10 @@
           path: '/design/iconography/'
         },
         {
+          title: 'Wording',
+          path: '/design/wording/'
+        },
+        {
           title: 'Typography',
           path: '/design/typography/'
         },
