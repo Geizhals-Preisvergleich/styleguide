@@ -1,0 +1,36 @@
+```js exec
+import Notification from './../../ui-components/Notification.svelte';
+```
+
+# Notifications
+
+Notifications are shown to inform users if a certain action was successful when otherwise the result would not be immediately visible. They are especially useful for asynchronous actions.
+
+Notifications:
+
+- are shown in the top right corner of the screen
+- feature some text and an icon depending on the type of notification.
+- will disappear after 3.8 seconds (can be configured)
+- except for when hovering over the Notification ([_try it below!_](#types-of-notifications))
+- can always be closed using the X-button
+- can stack up to 5 Notifications at a time, whereas the newest Notification is at the top
+- support swipe-to-dismiss on mobile
+
+## Types of Notifications
+
+There are currently three types of notifications:
+
+<Notification
+  type="success"
+  message="I am a success notification! I can contain <strong>bold text too!</strong>"
+/>
+
+<Notification
+  type="error"
+  message="I am an error notification! I can contain <strong>bold text too!</strong>"
+/>
+
+<Notification
+  type="info"
+  message="I am an info notification! I can contain <strong>bold text too!</strong>"
+/>

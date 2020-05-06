@@ -1,0 +1,77 @@
+```js exec
+```
+
+# Layout
+
+## Desktop
+
+The Preisvergleich desktop layout consists of these main parts:
+
+- Header
+  - Logo
+  - Secondary Navigation
+  - Search
+  - Main Navigation (Categories)
+  - Breadcrumbs
+- Left Navigation
+  - Main Navigation (Categories)
+  - Deals Teaser
+- Content Area
+- Right Sidebar
+- Footer
+  - Company Links
+  - Social Links
+  - Sitemap Links
+  - Copyright
+
+Screenshot of "Home" on Desktop:  
+![Preisvergleich Home Screenshot](styleguide/layout_home.png)
+
+## Mobile
+
+The Preisvergleich mobile layout consists of these main parts:
+
+- Header
+  - Main Navigation Button (Burger Button)
+  - Logo
+  - Deals Badge
+- Breadcrumbs
+- Content Area
+- Footer
+  - Company Links
+  - Social Links
+  - Sitemap Links
+  - Copyright
+
+<p>
+  <img src="styleguide/layout_mobile.png" alt="Preisvergleich Mobile Screenshot" style="max-width: 340px" />
+</p>
+
+## Mobile Navigation
+
+The mobile website uses an offscreen main navigation. Tapping the "burger button" the main navigation is animated from the left viewport edge.
+
+Mobile Navigation:
+
+- Main Navigation (Categories)
+- Secondary Navigation
+- Other locs
+- Login / Register
+
+<img src="styleguide/layout_mobile_nav.png" alt="Preisvergleich Mobile Screenshot" style="max-width: 340px" />
+
+## Table Layout
+
+Use a table layout for flexibly viewing and managing large sets of data. The layout uses 100% of the viewport. Items are displayed as rows with their fields organized in columns.
+
+The columns are fixed width and use as much horizontal space as necessary. Columns do not resize when the window changes width. Users can choose which columns to show and how wide each column is. If the grid is wider than the viewport, users horizontally scroll to see more data.
+
+The table can be of infinite length. Data is loaded as the user scrolls. This lets your users access their data most efficiently. Avoid using manual pagination controls, which reduce efficiency.
+
+### Product table - Used for product (top-100; ...)
+
+![Product table ](styleguide/table_cat_product.png)
+
+### Offer table - Viewed on product page
+
+![Offer table ](styleguide/table_prod_offers.png)

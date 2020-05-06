@@ -1,0 +1,16 @@
+```js exec
+```
+
+# Galleryview
+
+Galleryview component displays data as a grid. It is also commonly referred to as "Kacheln".
+
+Certain page types (whats) allow the user to switch between [Listview](/components/listview) and Galleryview. While Listview provides a more compact UI, Galleryview focusses on larger images and more white space.
+
+Depending on the available screen estate, Galleryview items are usually displayed in a grid of 2-5 columns.
+
+### Examples
+
+Galleryview on Searchresults page:
+
+![Galleryview on SERP](styleguide/galleryview_serp.jpg)

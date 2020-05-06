@@ -1,0 +1,33 @@
+```js exec
+import Listview from '../../ui-components/Listview.svelte';
+```
+
+# Listview
+
+Listview is a versatile component to display a list of products. It displays the most important data in a compact way. The component can usually be opened to show more details.
+
+It is currently used on these pages, in slightly different ways:
+
+- Searchresults
+- Variant (mobile)
+- Variant offers
+
+### Example Listview component
+
+Single search result as displayed on Searchresults page:
+
+<Listview />
+
+List of Listview components on Searchresults page:
+
+![Listview List on SERP](styleguide/listview_list.png)
+
+### Other examples
+
+List of Listview components on Variant page (mobile):
+
+![Listview Variant mobile](styleguide/listview_variant_mobile.png)
+
+List of Listview components on Variant page (offers list):
+
+![Listview Variant offers](styleguide/listview_variant_offers.png)

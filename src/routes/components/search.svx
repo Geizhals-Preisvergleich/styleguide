@@ -1,0 +1,21 @@
+```js exec
+import PVBase from './../../components/PVBase.svelte';
+```
+
+# Search
+
+## Global Search
+
+Global search bar lives in the header of the Preisvergleich website, where it's highly discoverable.
+
+Desktop:  
+![Search](styleguide/searchbar.png)
+
+Mobile:  
+![Search Mobile](styleguide/searchbar_mobile.png)
+
+## Autocomplete
+
+The global search lists search results in a box adjecent to the search input while users type.
+
+![Search Autocomplete](styleguide/searchbar_autocomplete.png)

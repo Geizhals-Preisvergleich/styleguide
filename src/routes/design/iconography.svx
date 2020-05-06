@@ -1,0 +1,70 @@
+```js exec
+import Hint from '../../components/Hint.svelte';
+import Icon from '../../components/Icon.svelte';
+```
+
+# Iconography
+
+## Outlined versus filled icons
+
+Use both filled and outlined icons depending the required context. For instance, a filled icon could be used to indicate that something is "on", while an outlined icon could indicate that something is "off".
+
+## Do's
+
+- Add a label to the icon where possible. Otherwise users might not know what we intend to communicate with this particular icon.
+- If a label is not possible due to layout constraints, consider adding a tooltip.
+- States of an icon (like active, inactive ...) should be communicated clearly, ideally along with the corresponding label. This ensures that visually impaired users understand the meaning of the icon.
+- Pay attention to proper sizing and alignment of multiple icons to maintain visual balance. Certain icons appear visually out of balance or have different intrinsic sizes.
+
+<Hint>
+  Always add an Alt text and at least, if the image has no label, a <pre>title</pre> attribute.
+</Hint>
+
+## Dont's
+
+- Aim to use existing icons instead of creating new files.
+
+## Geizhals Icons
+
+List of most commonly used icons on the Geizhals Preisvergleich website:
+
+<Icon src="styleguide/account_shareable.svg" label="Account (public)" />
+<Icon src="styleguide/account.svg" label="Account" />
+<Icon src="styleguide/close.svg" label="Close" />
+<Icon src="styleguide/compare_product_InList.svg" label="Compare Product (in list)" />
+<Icon src="styleguide/compare_product_notInList.svg" label="Compare Product (not in list)" />
+<Icon src="styleguide/copy.svg" label="Copy" />
+<Icon src="styleguide/deals-badge-yellow.svg" label="Deals Badge" showbackground />
+<Icon src="styleguide/drag.svg" label="Drag" />
+<Icon src="styleguide/edit.svg" label="Edit" />
+<Icon src="styleguide/gh_stars_flat_grey.svg" label="Stars" />
+<Icon src="styleguide/icon_bug.svg" label="Bug" />
+<Icon src="styleguide/icon_external_link.svg" label="External Link" />
+<Icon src="styleguide/external_link_white.svg" showbackground label="External Link (white)" />
+<Icon src="styleguide/icon_filter_outline.svg" label="Filter" />
+<Icon src="styleguide/icon_share.svg" label="Share" />
+<Icon src="styleguide/placeholder.svg" label="Image Placeholder" />
+<Icon src="styleguide/pricealarm_active.svg" label="Pricealarm (active)" />
+<Icon src="styleguide/pricealarm_expired.svg" label="Pricealarm (expired/inactive)" />
+<Icon src="styleguide/pricealarm.svg" label="Pricealarm" />
+<Icon src="styleguide/pricehistory.svg" label="Pricehistory" />
+<Icon src="styleguide/trash_bigger.svg" label="Trash" />
+<Icon src="styleguide/view_list.svg" label="View: List" />
+<Icon src="styleguide/view_gallery.svg" label="View: Gallery" />
+<Icon src="styleguide/wishlist.svg" label="Wishlist" />
+
+## Country Flags
+
+<Icon src="styleguide/flags/uk.svg" label="Flag: UK" />
+<Icon src="styleguide/flags/at.svg" label="Flag: AT" />
+<Icon src="styleguide/flags/ch.svg" label="Flag: CH" />
+<Icon src="styleguide/flags/de.svg" label="Flag: DE" />
+<Icon src="styleguide/flags/en.svg" label="Flag: EN" />
+<Icon src="styleguide/flags/eu.svg" label="Flag: EU" />
+<Icon src="styleguide/flags/fr.svg" label="Flag: FR" />
+<Icon src="styleguide/flags/gr.svg" label="Flag: GR" />
+<Icon src="styleguide/flags/ie.svg" label="Flag: IE" />
+<Icon src="styleguide/flags/it.svg" label="Flag: IT" />
+<Icon src="styleguide/flags/nl.svg" label="Flag: NL" />
+<Icon src="styleguide/flags/pl.svg" label="Flag: PL" />
+<Icon src="styleguide/flags/sk.svg" label="Flag: SK" />

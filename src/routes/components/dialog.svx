@@ -1,0 +1,68 @@
+```js exec
+```
+
+# Dialog
+
+The dialog module is a ghpak which is embedded as [TTerse Wrapper](http://template-toolkit.org/docs/manual/Config.html#section_WRAPPER)
+
+There are already some reusable dialogs in the dialog/include directory. There may need some additional setup to run properly.
+
+### Example Dialog (Price Alert):
+
+![Dialog for Price Alert](styleguide/dialog_preisalarm.png)
+
+## Content Style
+
+### Columns
+
+You can have a two-column layout, which will become one-column on mobile in portrait mode and on devices with screens smaller than 620px width.
+
+### Actions
+
+Padding to the bottom is added by default. there are two options of using actions elements:
+
+**1) Fixed to bottom**  
+The fixed action bar should two buttons. If there is just one button for i.e. save oder submit, add another button for closing the dialog window. The main action button uses the class .button the secondary action .button.button--outlined.
+
+**(2) Inlined**  
+Inlined buttons will be full-sized on mobiles.
+
+## Do:
+
+Always use two buttons:  
+ ![Dialog with two buttons](styleguide/dialog_twobuttons.png)
+
+## Dont:
+
+Do not use one single button in the fixed bottom bar:  
+ ![Dialog with two buttons](styleguide/dialog_onebutton.png)
+
+## Sizing
+
+**Desktop:**  
+Width: 100% - 2rem (max-width: 800px)  
+Height: 100% - 2rem  
+Exceptions: Pricehistory chart has no max-width. Pinned dialogs have min-width: 360px.
+
+**Mobile:**  
+Width: 100% - 2rem  
+Height: 100% - 2rem  
+Exceptions: Screens with smaller than 360px (width), have full 100% width and height.
+
+## Exceptions
+
+**Pricealert Dialog**  
+The pricealert is a ghpak on its own. It is embeddable through gh/static/ghpak/pricealert_modal/hook.tpl.
+
+**Pricehistory Chart Dialog**  
+The pricehistory chart is not a dialog on mobiles and tablets. On Desktops it doesn't have a max width of 800px.
+
+**Login / Register Dialog**  
+The authentification dialog is located at geizhals-auth/c2/. This dialog uses mainly styles from the dialog stylessheet, but it is not embedded through the wrapper function. It is a custom preact app.  
+It has a max-width of 360px on desktops. Changes within the dialog-HTML structure must be applied manually.
+
+**Categorylist**  
+On mobiles and tablets the categorylist and its dialogs are an independent preact app similiar to the authentification. But located within the ghpak folder. They have an embedded dialog for availability, but the main filter function is not relying on dialog styles, script and structure.
+
+**Gallery**  
+This doesn't have any dialog elements. It is similiar to categorylist a preact app on its own.

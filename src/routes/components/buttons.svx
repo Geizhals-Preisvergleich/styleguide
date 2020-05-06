@@ -1,0 +1,44 @@
+```js exec
+import ButtonOffer from './../../ui-components/ButtonOffer.svelte';
+import ButtonPrimary from './../../ui-components/ButtonPrimary.svelte';
+import ButtonSecondary from './../../ui-components/ButtonSecondary.svelte';
+import ButtonIcon from './../../ui-components/ButtonIcon.svelte';
+```
+
+# Buttons
+
+## Offer Button
+
+The Offer Button is only used in the offer list on product page.
+The background is a gradient of [these colors](/design/colors#offer-button-colors).
+
+<ButtonOffer />
+
+## Primary Button
+
+Use the Primary Button for triggering important actions. Some examples:
+
+- Save-Button in a modal
+- Offer-Button on Deals and Variant pages
+
+<ButtonPrimary />
+
+Disabled state:
+
+<ButtonPrimary disabled />
+
+## Secondary Button
+
+Use the Secondary Button for triggering a – well – secondary option, like closing a modal.
+
+<ButtonSecondary />
+
+Disabled state:
+
+<ButtonSecondary disabled />
+
+## Button with Icon
+
+This button type is used to indicate e.g. an external link, like on the Deals and Variant page. In these cases it is most probably actually a link, disguised as a button.
+
+<ButtonIcon />

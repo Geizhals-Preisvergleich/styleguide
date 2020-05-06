@@ -1,0 +1,64 @@
+```js exec
+import InputText from '../../ui-components/InputText.svelte';
+import InputTextarea from '../../ui-components/InputTextarea.svelte';
+import InputSelect from '../../ui-components/InputSelect.svelte';
+import InputCheckbox from '../../ui-components/InputCheckbox.svelte';
+```
+
+# Inputs
+
+Types of Inputs used on Geizhals Preisvergleich:
+
+- [Text Input](#text-input)
+- [Text Area](#text-area)
+- [Checkbox](#checkbox)
+- [Select](#select)
+
+## Text Input
+
+Text inputs should:
+
+- Use a seperate label to describe the input.
+- Use a placeholder text. If it makes sense use an example value, otherwise it can be the same as label.
+- Use the correct `inputmode`, e.g. `email`, `tel`. (see [inputmode on MDN](https://developer.mozilla.org/de/docs/Web/HTML/Globale_Attribute/inputmode))
+- Use simple clientside validation and show missing fields (see [Example with error state](<#example-text-input-(error-state)>))
+
+### Example text input
+
+<InputText />
+
+### Example text input (error state)
+
+<InputText error={true} />
+
+## Text Area
+
+### Example
+
+<InputTextarea />
+
+## Checkbox
+
+### Do:
+
+- Set label via label tag for accessibility
+- use TTerse include functionality to embed the SVG tick icon
+- On hover change cursor to pointer
+
+### Don't:
+
+- No transition effects
+- Do not use toggle slider
+- No other hover effects
+
+### Example checkbox:
+
+<InputCheckbox />
+
+## Select
+
+Use select components to allow users to select a value from a list of predefined values. This uses the native HTML `<select>` element, therefore it is highly accessible and mobile-friendly, but a bit limited in styling capabilities.
+
+### Example select: Type of feedback
+
+<InputSelect />

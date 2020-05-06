@@ -1,0 +1,22 @@
+```js exec
+import Hint from '../../components/Hint.svelte';
+import Code from '../../components/Code.svelte';
+```
+
+# Title
+
+## Subtitle
+
+Here's a "Hint":
+
+<Hint>Don't forget to update the import paths to the Components!</Hint>
+
+Here's some expandable code block:
+
+<Code language="css">
+  {`
+div {
+  font-size: 11px;
+}
+`}
+</Code>

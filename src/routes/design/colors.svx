@@ -1,0 +1,91 @@
+```js exec
+import Colors from './../../components/Colors.svelte';
+import Color from './../../components/Color.svelte';
+import Hint from './../../components/Hint.svelte';
+```
+
+# Colors
+
+All the colors used on the Geizhals Preisvergleich website. We aim to reduce the amount of different colors in use and stick to the colors defined in this document.
+
+Colors are grouped into a few categories:
+
+- [Colors](#colors)
+  - [Geizhals Brand Color](#geizhals-brand-color)
+  - [Accent colors](#accent-colors)
+  - [Grey variations](#grey-variations)
+  - [Offer button colors](#offer-button-colors)
+  - [Offer availability colors](#offer-availability-colors)
+  - [Additional colors](#additional-colors)
+
+<Hint>
+  Please make sure you use colors in an accessible manner. For example, use white text on red-base or
+  green-base background, but black text on apricot-base.
+</Hint>
+
+## Geizhals Brand Color
+
+Official geizhals brand color. This color is used commonly throughout the Preisvergleich website, for example in the sidebar, header, primary buttons, ...
+
+<Colors>
+  <Color color="#005599" name="gh-blue-base" />
+</Colors>
+
+**Variations:**
+
+<Colors>
+  <Color color="#004780" name="gh-blue-darker-5" description="Links" />
+  <Color color="#0071CC" name="gh-blue-lighter-10" />
+  <Color color="#F0F2F5" name="gh-blue-lighter-65" />
+  <Color color="#FBFCFF" name="gh-blue-lighter-69" />
+</Colors>
+
+## Accent colors
+
+<Colors>
+  <Color color="#E60000" name="red-base" description="Error Messages" />
+  <Color color="#2C8730" name="green-base" description="Success Messages" />
+  <Color color="#FFAE00" name="apricot-base" description="Compare Widget" />
+</Colors>
+
+## Grey variations
+
+<Colors>
+  <Color color="#1A1A1A" name="grey-darker-35" />
+  <Color color="#404040" name="grey-darker-20" />
+  <Color color="#666666" name="grey-darker-5" />
+  <Color color="#737373" name="grey-base" />
+  <Color color="#A6A6A6" name="grey-lighter-20" />
+  <Color color="#D9D9D9" name="grey-lighter-40" />
+  <Color color="#F2F2F2" name="grey-lighter-50" />
+</Colors>
+
+## Offer button colors
+
+See [Offer Button](components/buttons#offer-button)
+
+<Colors>
+  <Color color="#F7E852" />
+  <Color color="#FAD86E" />
+  <Color color="#D5B13E" />
+</Colors>
+
+## Offer availability colors
+
+<Colors>
+  <Color color="#3FAD45" name="Available" />
+  <Color color="#EBBE4F" name="Available shortly" />
+  <Color color="#D9D9D9" name="Not available" />
+</Colors>
+
+## Additional colors
+
+Additional colors used throughout the Preisvergleich website.
+
+<Colors>
+  <Color color="#F3BD30" description="Rating stars icons" />
+  <Color color="#FF0000" description="'Free Delivery' text" />
+  <Color color="#333333" description="Footer background" />
+  <Color color="#BBBBBB" description="Footer text" />
+  <Color color="#142161" description="Breadcrumb background" />
+</Colors>

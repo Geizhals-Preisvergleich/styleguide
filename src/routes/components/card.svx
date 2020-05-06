@@ -1,0 +1,52 @@
+```js exec
+import Hint from '../../components/Hint.svelte';
+import Code from '../../components/Code.svelte';
+```
+
+# Card
+
+Groups of UI elements which belong to the same functionality can be grouped in so-called Cards. This helps to understand the relation between UI elements and seperates areas of the UI in distinctive groups.
+
+## Modern Cards
+
+Currently, Cards are displayed as a box with a border of "grey-lighter-40" (see <a href="/design/colors/#grey-variations">Colors</a>), white background and padding of 1rem:
+
+```css
+.mycard {
+  background: #fff;
+  border: 1px solid @grey-lighter-40;
+  padding: 1rem;
+}
+```
+
+This type of card is used on these pages, among others:
+
+- Search Results (SERP)
+- Deals
+- Variant
+- Product Ratings
+
+### Examples of modern Cards
+
+"Top Kategorien" Card on SERP:
+
+![Top Kategorien Card on SERP](styleguide/card_serp_categories.png)
+
+Variant Header:
+
+![Variant Header](styleguide/card_variant_header.png)
+
+## Legacy Cards
+
+Legacy cards are very similar to modern Cards, but uses a drop-shadow instead of border. This type of card is used on these pages, among others:
+
+- Productpage
+- Wishlist
+- Price Alerts
+- Händler Ratings
+
+### Example of legacy Card
+
+Product Header and Table of Contents on Product page:
+
+![Legacy Cards on Product page](styleguide/card_legacy_product.png)

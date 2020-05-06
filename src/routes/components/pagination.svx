@@ -1,0 +1,18 @@
+```js exec
+import Pagination from './../../ui-components/Pagination.svelte';
+```
+
+# Pagination
+
+The Pagination component is used for navigating through large sets of data. It is used on these pages:
+
+- Search Results
+- Category List
+- Deals
+
+Usually it is used in conjunction with other UI to control the appearance of the list, e.g. sorting, how many rows should be displayed, view type switch, etc. See screenshot below for a example.
+
+<Pagination />
+
+Example of a list controls including Pagination on Search Results page:  
+![Pagination on SERP](styleguide/pagination_serp.png)

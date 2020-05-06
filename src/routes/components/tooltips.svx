@@ -1,0 +1,20 @@
+```js exec
+import Code from '../../components/Code.svelte';
+```
+
+# Tooltips
+
+Tooltips are small inline pop-ups conveying additional textual information about an element of the user interface. They are especially useful for icon-only-buttons as the purpose of the button may not be immediately obvious to the user. By providing additional information using a tooltip, we can communicate the purpose of the button.
+
+Tooltips usually appear when the user hovers over the UI element. Therefore they only make sense in desktop environments. It is also possible to show a tooltip programatically though.
+
+## Examples
+
+Tooltip for "Edit wish list":  
+![Tooltip Wunschliste bearbeiten](styleguide/tooltip_wl.png)
+
+Tooltip for Availability:  
+![Tooltip Availability](styleguide/tooltip_availability.png)
+
+Tooltip for Wishlist Settings:  
+![Tooltip Einstellungen](styleguide/tooltip_settings.png)

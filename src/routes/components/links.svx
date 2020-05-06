@@ -1,0 +1,27 @@
+```js exec
+import LinkRegular from './../../ui-components/LinkRegular.svelte';
+```
+
+# Links
+
+**TODO**: Define the rules for when to use which kind of link!
+
+## Regular Link
+
+This is the most basic type of links. Blue, underlined, no hover style. Nothin' fancy, but it is there for you when you need it.
+
+<LinkRegular>I am a link. I am blue and underlined.</LinkRegular>
+
+### without underline
+
+Regular links are also frequently used without underlines. This is also the preferred style for linked text with larger font size, like product names in [Listview](/components/listview) or [Galleryview](/components/galleryview).
+
+<LinkRegular noUnderline>
+  I am a link too, but I not underlined – except for when you hover over me.
+</LinkRegular>
+
+### grey, without underline
+
+Grey links use the text color grey-base and grey-darker-20 for hover.
+
+<LinkRegular grey>I am a grey link and also only show underlines on hover.</LinkRegular>

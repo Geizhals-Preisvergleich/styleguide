@@ -1,0 +1,28 @@
+```js exec
+import BreadcrumbsDesktop from './../../ui-components/BreadcrumbsDesktop.svelte';
+import BreadcrumbsMobile from './../../ui-components/BreadcrumbsMobile.svelte';
+```
+
+# Breadcrumbs
+
+Breadcrumbs help our users to understand where they are located within the site. They provide a quick way to navigate "back to where I came from" (hence the name). Since the Geizhals Preisvergleich Website has a great deal (_pun intended_) of sub-navigation paths, breadcrumbs are important for users to understand the hierachy of the site.
+
+## Desktop Breadcrumbs
+
+On the desktop site, breadcrumbs are located beneath the Main Navigation (Categories). It also contains links to the other hosts (**TODO**: is this the correct term?) in the form of country flags.
+
+This is what the breadcrumbs component looks like on product page:
+
+<BreadcrumbsDesktop />
+
+## Mobile Breadcrumbs
+
+On the mobile site, breadcrumbs are located beneath Search.
+
+<BreadcrumbsMobile />
+
+Note that while on the Desktop site the breadcrumbs component is visible on every site, on mobile it is _not_ shown on these sites:
+
+- Landing Page
+- Search Results
+- Deals

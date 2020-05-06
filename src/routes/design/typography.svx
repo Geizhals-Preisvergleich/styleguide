@@ -1,0 +1,70 @@
+```js exec
+import Hint from '../../components/Hint.svelte';
+import Code from '../../components/Code.svelte';
+```
+
+# Typography
+
+## General Typography
+
+The Geizhals Preisvergleich website uses the font Verdana throughout the site.
+
+This is what the global font declaration looks like:
+
+```css
+body#ghbody {
+  font: 11px Verdana, sans-serif;
+}
+```
+
+## Copy Text
+
+Regular copy text uses the root font style (11px Verdana).
+
+**Examples:**
+
+![Copy Text: Example: Specs](styleguide/typo_paragraph_specs.png)
+
+![Copy Text: Example: Offerlist](styleguide/typo_paragraph_offerlist.png)
+
+<Code language="css">
+  {`
+div {
+  font-size: 11px;
+}
+`}
+</Code>
+
+## Heading 1
+
+**Examples:**
+
+![Heading 1: Example: Productpage](styleguide/typo_h1_iphone.png)
+
+![Heading 1: Example: Deals](styleguide/typo_h1_deals.png)
+
+<Code language="css">
+  {`/* There's no global h1 style in use, but it should look something like this: */
+h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+`}
+</Code>
+
+## Heading 2
+
+**Examples:**
+
+![Heading 2: Example: Varianten](styleguide/typo_h2_varianten.png)
+
+![Heading 2: Example: SERP](styleguide/typo_h2_gefundene_produkte.png)
+
+<Code language="css">
+  {`/* There's no global h2 style in use, but it should look something like this: */
+h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+`}
+</Code>

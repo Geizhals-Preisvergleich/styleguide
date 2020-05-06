@@ -1,0 +1,51 @@
+```js exec
+import Icon from '../../components/Icon.svelte';
+import Hint from '../../components/Hint.svelte';
+```
+
+# Logo
+
+<Hint>
+  <a
+    href="https://euipo.europa.eu/eSearch/#details/trademarks/002970671"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Link to EUIPO protection
+  </a>
+</Hint>
+
+## Geizhals Logo
+
+<img src="styleguide/geizhals_logo_without_margin.svg" width="250px" alt="Geizhals Logo" />
+
+## Skinflint Logo
+
+<img src="styleguide/skinflint.png" alt="Skinflint Logo" />
+
+## Cenowarka Logo
+
+<img src="styleguide/cenowarka-logo-162x45.png" alt="Cenowarka Logo" />
+
+## Logo Variations
+
+<Icon src="styleguide/logo_round.png" label="Icon Round" />
+
+<Icon src="styleguide/logo_mono.jpg" label="Icon Half Round" />
+
+## Favicons
+
+<Icon src="styleguide/gh-favicon-32x32.png" label="Favicon Geizhals.at" />
+
+<Icon src="styleguide/apple-touch-icon-precomposed.png" label="Home Screen Icon" />
+
+<Icon src="styleguide/skinflint-favicon-32x32.png" label="Favicon Skinflint.co.uk" />
+
+<Icon src="styleguide/cenowarka-favicon-32x32.png" label="Favicon Cenowarka.pl" />
+
+## Dont's
+
+- Do not change form, type or colors of the official logos.
+- Do not invent new variations of the logos.
+
+<Icon src="styleguide/logo_dont.jpg" label="Do not add gradients or change colors!" />
