@@ -40,13 +40,13 @@ run `npm run export`. The exported files are placed in `__sapper__/export`. Thes
 
 ## What is MDsveX?
 
-MDsvex is a port of MDX for the Svelte framework. Now, what do all of these mean?
+MDsvex is a port of [MDX](https://mdxjs.com/) for the Svelte framework. Now, what do all of these mean?
 
 **MDX:**  
 Think of MDX as "Markdown Extended". It let's you use JSX/React components your markdown pages. This makes MDX very versatile.
 
 **MDsveX:**  
-MDsveX is the same idea as MDX, but for usage with Svelte components instead of React components. Since this styleguide is build with Svelte it, we are using MDsveX instead of MDX, but the same principles apply.
+[MDsveX](https://github.com/pngwn/MDsveX) is the same idea as MDX, but for usage with Svelte components instead of React components. Since this styleguide is build with Svelte it, we are using MDsveX instead of MDX, but the same principles apply.
 
 Basically MDsveX lets you import a Svelte component and use it along with your markdown content. This is useful to include actual UI components in our styleguide.
 
