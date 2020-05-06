@@ -5,9 +5,40 @@ import Icon from '../../components/Icon.svelte';
 
 # Iconography
 
+Geizhals Icons should be kept simple and neutral. We are using mostly icons from the [Material Design icons](https://material.io/resources/icons/) set. In certain cases it may be required to create custom icons – these should follow the style of Material Design icons.
+
 ## Outlined versus filled icons
 
 Use both filled and outlined icons depending the required context. For instance, a filled icon could be used to indicate that something is "on", while an outlined icon could indicate that something is "off".
+
+## States
+
+**TODO**
+
+## Sizes
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Size in pixels (w/h)</th>
+    <th>Usage</th>
+  </tr>
+  <tr>
+    <td>XS</td>
+    <td>16x16</td>
+    <td>e.g. Info-Icons in Heading1</td>
+  </tr>
+  <tr>
+    <td>S</td>
+    <td>24x24</td>
+    <td>e.g. Action-Icons with labels on product page</td>
+  </tr>
+  <tr>
+    <td>M</td>
+    <td>32x32</td>
+    <td>e.g. Action-Icons in Header</td>
+  </tr>
+</table>
 
 ## Do's
 

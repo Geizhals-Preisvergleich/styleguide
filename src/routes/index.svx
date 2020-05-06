@@ -2,8 +2,13 @@
 ```
 
 <svelte:head>
-
   <title>Geizhals Preisvergleich Styleguide</title>
 </svelte:head>
 
 # Geizhals Preisvergleich Styleguide
+
+This Styleguide aims to
+
+- **document** currently used colors, fonts, icons, layouts, commonly used components and other elements related to the User Interface of the Geizhals Preisvergleich website
+- **provide guidance** for creating new UI or redesigning existing UI
+- **help streamline** the existing UI to achieve a more consistent experience for our users
