@@ -1,5 +1,9 @@
 # Geizhals Styleguide
 
+## Installation
+
+Run: `npm install`
+
 ## Editing pages
 
 The individual pages are located in the `src/routes/` directory, e.g. the page "Design > Iconography" is this file: src/routes/design/Iconography.svx".
@@ -32,7 +36,7 @@ run `npm run dev` and open `http://localhost:3000`
 
 ## Build
 
-run `npm run build`. The exported files are placed in `__sapper__/build`
+run `npm run export`. The exported files are placed in `__sapper__/export`. These files can be served as static files with any webserver. (try `npx serve __sapper__/export`)
 
 ## What is MDsveX?
 
