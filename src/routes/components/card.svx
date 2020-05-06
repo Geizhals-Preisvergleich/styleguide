@@ -5,7 +5,7 @@ import Code from '../../components/Code.svelte';
 
 # Card
 
-Groups of UI elements which belong to the same functionality can be grouped in so-called Cards. This helps to understand the relation between UI elements and seperates areas of the UI in distinctive groups.
+Groups of UI elements which belong to the same functionality can be grouped in _Cards_. Cards help to communicate the relation between UI elements and organizes areas of the UI into distinctive groups.
 
 ## Modern Cards
 
