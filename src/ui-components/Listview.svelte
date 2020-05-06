@@ -544,7 +544,7 @@
 <PVBase>
   <div class="listview__item" data-index="0" class:opened-details={opened}>
     <div class="listview__content">
-      <a href="javascript:;" class="listview__toggle-details-button " on:click={toggleOpen}>
+      <a href="#" class="listview__toggle-details-button " on:click={toggleOpen}>
         <span class="visually-hidden">Details ein-/ausklappen</span>
         <span class="arrow" aria-label="hidden" />
       </a>
@@ -599,7 +599,7 @@
         </div>
         <div class="listview__options-wrapper">
           <div class="dots-dropdown ">
-            <a href="javascript:;" class="dots-dropdown__link" title="Produkt-Optionen">
+            <a href="#" class="dots-dropdown__link" title="Produkt-Optionen">
               <span class="dots-dropdown__link__dots-wrapper">
                 <span class="dots-dropdown__link__dots" />
               </span>
@@ -625,7 +625,7 @@
                   </a>
                 </li>
                 <li class="dots-dropdown__list-item hide-on-nojs">
-                  <a href="javascript:;" class="dots-dropdown__list-link">
+                  <a href="#" class="dots-dropdown__list-link">
                     <img
                       src="//gzhls.at/b/svgs/wishlist.svg"
                       alt="Preisalarm"
@@ -635,7 +635,7 @@
                 </li>
                 <li class="dots-dropdown__list-item">
                   <a
-                    href="javascript:;"
+                    href="#"
                     class="dots-dropdown__list-link compare-toggle notInList"
                     data-name="Nintendo Switch schwarz/blau/rot (2019)"
                     data-href="#"
@@ -678,7 +678,7 @@
 
       <div class="listview__details__compare">
         <a
-          href="javascript:;"
+          href="#"
           class="listview__details__compare-link compare-toggle notInList"
           data-name="Nintendo Switch schwarz/blau/rot (2019)"
           data-href="#"
