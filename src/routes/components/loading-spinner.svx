@@ -1,0 +1,23 @@
+```js exec
+import Hint from '../../components/Hint.svelte';
+import Code from '../../components/Code.svelte';
+import LoadingSpinner from '../../ui-components/LoadingSpinner.svelte';
+```
+
+# Loading Spinner
+
+## Small Loading Spinner
+
+used for (examples):
+- Variants page while loading offers
+- Inline image gallery
+
+<LoadingSpinner size="small"/>
+
+## Large Loading Spinner
+
+used for (examples):
+- Price Alert dialog
+- Fullscreen image gallery
+
+<LoadingSpinner size="large"/>

@@ -79,7 +79,11 @@
         {
           title: "Pagination",
           path: "/components/pagination/"
-        }
+        },
+        {
+          title: "Loading Spinner",
+          path: "/components/loading-spinner/"
+        },
       ]
     },
     {
@@ -135,6 +139,13 @@
     overflow-y: auto;
     overflow-x: hidden;
   }
+
+  nav::after {
+    content: "";
+    display: block;
+    height: 5rem;
+  }
+
   @media screen and (max-width: 550px) {
     nav {
       width: 160px;
