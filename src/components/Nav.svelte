@@ -10,7 +10,7 @@
   let currentTitle = "";
   currentPage.subscribe(changedCurrentPageEvent => {
     pages.map(s => {
-      let exists = s.pages.find(e => e.path === changedCurrentPageEvent.path);
+      let exists = s.pages.find(e => changedCurrentPageEvent.path.indexOf(e.path) !== -1);
       if (exists) currentTitle = exists.title;
     });
   });
@@ -29,6 +29,7 @@
       if (Prism) Prism.highlightAll();
     }, 0);
   });
+
 </script>
 
 <style>
@@ -134,7 +135,7 @@
 </svelte:head>
 
 <nav>
-  <a href="/" class="title-wrapper">
+  <a href="./" class="title-wrapper">
     <img
       class="gh-logo"
       src="styleguide/geizhals_logo_without_margin.svg"
@@ -147,7 +148,7 @@
       {#each section.pages as page}
         <li>
           <a
-            aria-current={$currentPage.path === page.path || (page.path === '.' && $currentPage.path === undefined) ? 'page' : undefined}
+            aria-current={$currentPage.path === "/" + page.path || (page.path === '.' && $currentPage.path === undefined) ? 'page' : undefined}
             href={page.path}
             rel="prefetch">
             {page.title}

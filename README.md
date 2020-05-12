@@ -32,7 +32,7 @@ Since MDsveX is markdown you are free to use HTML markup where required. You mig
 
 ## Preview
 
-run `npm run dev` and open `http://localhost:3000`
+run `npm run dev` and open `http://localhost:3000/styleguide`
 
 ## Build
 

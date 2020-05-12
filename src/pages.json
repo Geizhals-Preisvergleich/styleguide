@@ -4,27 +4,27 @@
     "pages": [
       {
         "title": "Logo",
-        "path": "/design/logo/"
+        "path": "design/logo/"
       },
       {
         "title": "Colors",
-        "path": "/design/colors/"
+        "path": "design/colors/"
       },
       {
         "title": "Iconography",
-        "path": "/design/iconography/"
+        "path": "design/iconography/"
       },
       {
         "title": "Wording",
-        "path": "/design/wording/"
+        "path": "design/wording/"
       },
       {
         "title": "Typography",
-        "path": "/design/typography/"
+        "path": "design/typography/"
       },
       {
         "title": "Layout",
-        "path": "/design/layout/"
+        "path": "design/layout/"
       }
     ]
   },
@@ -33,51 +33,51 @@
     "pages": [
       {
         "title": "Buttons",
-        "path": "/components/buttons/"
+        "path": "components/buttons/"
       },
       {
         "title": "Links",
-        "path": "/components/links/"
+        "path": "components/links/"
       },
       {
         "title": "Input",
-        "path": "/components/inputs/"
+        "path": "components/inputs/"
       },
       {
         "title": "Card",
-        "path": "/components/card/"
+        "path": "components/card/"
       },
       {
         "title": "Search",
-        "path": "/components/search/"
+        "path": "components/search/"
       },
       {
         "title": "Breadcrumbs",
-        "path": "/components/breadcrumbs/"
+        "path": "components/breadcrumbs/"
       },
       {
         "title": "Dialog (Modal)",
-        "path": "/components/dialog/"
+        "path": "components/dialog/"
       },
       {
         "title": "Notification",
-        "path": "/components/notifications/"
+        "path": "components/notifications/"
       },
       {
         "title": "Tooltip",
-        "path": "/components/tooltips/"
+        "path": "components/tooltips/"
       },
       {
         "title": "Pagination",
-        "path": "/components/pagination/"
+        "path": "components/pagination/"
       },
       {
         "title": "Loading Spinner",
-        "path": "/components/loading-spinner/"
+        "path": "components/loading-spinner/"
       },
       {
         "title": "Availability",
-        "path": "/components/availability/"
+        "path": "components/availability/"
       }
     ]
   },
@@ -86,11 +86,11 @@
     "pages": [
       {
         "title": "Listview",
-        "path": "/views/listview/"
+        "path": "views/listview/"
       },
       {
         "title": "Galleryview",
-        "path": "/views/galleryview/"
+        "path": "views/galleryview/"
       }
     ]
   }

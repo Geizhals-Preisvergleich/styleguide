@@ -18,7 +18,7 @@ It comes in two forms:
 
 ## Dot
 
-The Availability Dot is used throughout the site, especially in newer views like [Listview](/views/listview) or [Galleryview](/views/galleryview). It uses [Tooltips](/components/tooltips) and the [Availability colors](/design/colors/#offer-availability-colors) to communicate these three states:
+The Availability Dot is used throughout the site, especially in newer views like [Listview](views/listview) or [Galleryview](views/galleryview). It uses [Tooltips](components/tooltips) and the [Availability colors](design/colors/#offer-availability-colors) to communicate these three states:
 
 Item is available:
 <Availability availability="available" />

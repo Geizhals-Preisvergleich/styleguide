@@ -4,7 +4,7 @@
 
   let buttonHtml = `<button class="galleryview__lead-button">
         Zum Angebot
-        <img src="/styleguide/external_link_white.svg" alt="Externer Link" class="icon" />
+        <img src="styleguide/external_link_white.svg" alt="Externer Link" class="icon" />
       </button>`
 </script>
 
@@ -46,7 +46,7 @@
 <PVBase>
   <button class="galleryview__lead-button">
     Zum Angebot
-    <img src="/styleguide/external_link_white.svg" alt="Externer Link" class="icon" />
+    <img src="styleguide/external_link_white.svg" alt="Externer Link" class="icon" />
   </button>
 </PVBase>
 <Code language="html">
