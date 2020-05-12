@@ -74,6 +74,10 @@
       {
         "title": "Loading Spinner",
         "path": "/components/loading-spinner/"
+      },
+      {
+        "title": "Availability",
+        "path": "/components/availability/"
       }
     ]
   },
@@ -82,11 +86,11 @@
     "pages": [
       {
         "title": "Listview",
-        "path": "/components/listview/"
+        "path": "/views/listview/"
       },
       {
         "title": "Galleryview",
-        "path": "/components/galleryview/"
+        "path": "/views/galleryview/"
       }
     ]
   }

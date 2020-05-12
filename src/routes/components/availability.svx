@@ -1,0 +1,46 @@
+```js exec
+import Hint from '../../components/Hint.svelte';
+import Availability from './../../ui-components/Availability.svelte';
+```
+
+# Availability
+
+The Availability component is used to communicate to the user if an item is available at the moment.
+
+It comes in two forms:
+
+- as a small circle, see [Dot](#dot)
+- as a vertical box, see [Box](#box)
+
+<Hint>
+  Going forward we aim to use the <strong>Availability Dot</strong> exclusively and gradually replace the Availability Box.
+</Hint>
+
+## Dot
+
+The Availability Dot is used throughout the site, especially in newer views like [Listview](/views/listview) or [Galleryview](/views/galleryview). It uses [Tooltips](/components/tooltips) and the [Availability colors](/design/colors/#offer-availability-colors) to communicate these three states:
+
+Item is available:
+<Availability availability="available" />
+
+
+Item is available shortly:
+<Availability availability="shortly" />
+
+Item is not available:
+<Availability availability="any" />
+
+<small>(hover for tooltip!)</small>
+
+## Box
+
+The Availability Box is either a square box or rectangle (in list views). It uses legacy availability colors.
+
+You can see the Availability Box in action on these pages:
+
+- Wish List detail page
+- Category page (mobile)
+- Top 100
+
+Example:  
+<img src="styleguide/availability_cat_page.jpg" alt="Screenshot of the mobile category page" style="max-width: 360px;"/>

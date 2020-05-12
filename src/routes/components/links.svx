@@ -14,7 +14,7 @@ This is the most basic type of links. Blue, underlined, no hover style. Nothin' 
 
 ### without underline
 
-Regular links are also frequently used without underlines. This is also the preferred style for linked text with larger font size, like product names in [Listview](/components/listview) or [Galleryview](/components/galleryview).
+Regular links are also frequently used without underlines. This is also the preferred style for linked text with larger font size, like product names in [Listview](/views/listview) or [Galleryview](/views/galleryview).
 
 <LinkRegular noUnderline>
   I am a link too, but I not underlined – except for when you hover over me.
