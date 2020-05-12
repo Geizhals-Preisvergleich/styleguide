@@ -1,6 +1,7 @@
 ```js exec
 import Hint from '../../components/Hint.svelte';
 import Code from '../../components/Code.svelte';
+import Font from '../../components/Font.svelte';
 ```
 
 # Typography
@@ -9,62 +10,50 @@ import Code from '../../components/Code.svelte';
 
 The Geizhals Preisvergleich website uses the font Verdana throughout the site.
 
-This is what the global font declaration looks like:
-
-```css
-body#ghbody {
-  font: 11px Verdana, sans-serif;
-}
-```
 
 ## Copy Text
 
-Regular copy text uses the root font style (11px Verdana).
+Regular copy text uses the body font style (11px Verdana).
 
-**Examples:**
+<Hint>
+  Note that altough the <code>body</code> has a font size of 11px, a lot of font sizes are defined in <code>rem</code> values. 1rem however will not be equal to 11px, but 16px which is the default font size on the <code>html</code> tag.
+</Hint>
 
-![Copy Text: Example: Specs](styleguide/typo_paragraph_specs.png)
+<Font fontFamily="Verdana, sans-serif" fontSize="11px" />
 
-![Copy Text: Example: Offerlist](styleguide/typo_paragraph_offerlist.png)
+<details>
+  <summary>
+    Screenshots
+  </summary>
+  <img src="styleguide/typo_paragraph_specs.png" alt="Copy Text: Example: Specs" />
+  <br />
+  <img src="styleguide/typo_paragraph_offerlist.png" alt="Copy Text: Example: Offerlist" />
+</details>
 
-<Code language="css">
-  {`
-div {
-  font-size: 11px;
-}
-`}
-</Code>
 
 ## Heading 1
 
-**Examples:**
+<Font fontFamily="Verdana, sans-serif" fontSize="1.2rem" fontWeight="bold" />
 
-![Heading 1: Example: Productpage](styleguide/typo_h1_iphone.png)
+<details>
+  <summary>
+    Screenshots
+  </summary>
+  <img src="styleguide/typo_h1_iphone.png" alt="Heading 1: Example: Productpage" />
+  <br />
+  <img src="styleguide/typo_h1_deals.png" alt="Heading 1: Example: Deals" />
+</details>
 
-![Heading 1: Example: Deals](styleguide/typo_h1_deals.png)
-
-<Code language="css">
-  {`/* There's no global h1 style in use, but it should look something like this: */
-h1 {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
-`}
-</Code>
 
 ## Heading 2
 
-**Examples:**
+<Font fontFamily="Verdana, sans-serif" fontSize="0.9rem" fontWeight="bold" />
 
-![Heading 2: Example: Varianten](styleguide/typo_h2_varianten.png)
-
-![Heading 2: Example: SERP](styleguide/typo_h2_gefundene_produkte.png)
-
-<Code language="css">
-  {`/* There's no global h2 style in use, but it should look something like this: */
-h2 {
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-`}
-</Code>
+<details>
+  <summary>
+    Screenshots
+  </summary>
+  <img src="styleguide/typo_h2_varianten.png" alt="Heading 2: Example: Varianten" />
+  <br />
+  <img src="styleguide/typo_h2_gefundene_produkte.png" alt="Heading 2: Example: SERP" />
+</details>

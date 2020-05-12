@@ -24,6 +24,11 @@
     display: inline-block;
     margin: 0;
   }
+  :global(.hint code) {
+    background-color: transparent;
+    color: currentColor;
+    padding: 0;
+  }
 </style>
 
 <div>

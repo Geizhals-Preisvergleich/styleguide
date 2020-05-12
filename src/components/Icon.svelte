@@ -39,7 +39,7 @@
 
 <div class="icon">
   <div class="img" class:showbackground>
-    <img {src} alt={label} />
+    <img class="noborder" {src} alt={label} />
   </div>
   <div class="inner">
     <label>{label}</label>

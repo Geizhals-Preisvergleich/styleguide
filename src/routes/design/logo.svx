@@ -17,15 +17,15 @@ import Hint from '../../components/Hint.svelte';
 
 ## Geizhals Logo
 
-<img src="styleguide/geizhals_logo_without_margin.svg" width="250px" alt="Geizhals Logo" />
+<img src="styleguide/geizhals_logo_without_margin.svg" class="noborder" width="250px" alt="Geizhals Logo" />
 
 ## Skinflint Logo
 
-<img src="styleguide/skinflint.png" alt="Skinflint Logo" />
+<img src="styleguide/skinflint.png" class="noborder" alt="Skinflint Logo" />
 
 ## Cenowarka Logo
 
-<img src="styleguide/cenowarka-logo-162x45.png" alt="Cenowarka Logo" />
+<img src="styleguide/cenowarka-logo-162x45.png" class="noborder" alt="Cenowarka Logo" />
 
 ## Logo Variations
 

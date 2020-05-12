@@ -140,3 +140,10 @@ tr > th {
 .content pre[class*='language-'] {
   font-size: 0.8rem;
 }
+
+.content img {
+  border: 1px solid var(--grey-lighter-40);
+}
+.content img.noborder {
+  border: none;
+}
