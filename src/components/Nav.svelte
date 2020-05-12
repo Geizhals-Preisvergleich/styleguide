@@ -1,105 +1,10 @@
 <script>
-  import { stores } from "@sapper/app";
   import { afterUpdate } from "svelte";
-  const { page: currentPage } = stores();
+  import { stores } from "@sapper/app";
+  import pages from "./../pages.json";
 
-  /**
-   * This is where you define the site structure.
-   * Maybe we find a better place to define site structure externally.
-   */
-  let pages = [
-    {
-      section: "Design",
-      pages: [
-        {
-          title: "Logo",
-          path: "/design/logo/"
-        },
-        {
-          title: "Colors",
-          path: "/design/colors/"
-        },
-        {
-          title: "Iconography",
-          path: "/design/iconography/"
-        },
-        {
-          title: "Wording",
-          path: "/design/wording/"
-        },
-        {
-          title: "Typography",
-          path: "/design/typography/"
-        },
-        {
-          title: "Layout",
-          path: "/design/layout/"
-        }
-      ]
-    },
-    {
-      section: "Components",
-      pages: [
-        {
-          title: "Buttons",
-          path: "/components/buttons/"
-        },
-        {
-          title: "Links",
-          path: "/components/links/"
-        },
-        {
-          title: "Input",
-          path: "/components/inputs/"
-        },
-        {
-          title: "Card",
-          path: "/components/card/"
-        },
-        {
-          title: "Search",
-          path: "/components/search/"
-        },
-        {
-          title: "Breadcrumbs",
-          path: "/components/breadcrumbs/"
-        },
-        {
-          title: "Dialog (Modal)",
-          path: "/components/dialog/"
-        },
-        {
-          title: "Notification",
-          path: "/components/notifications/"
-        },
-        {
-          title: "Tooltip",
-          path: "/components/tooltips/"
-        },
-        {
-          title: "Pagination",
-          path: "/components/pagination/"
-        },
-        {
-          title: "Loading Spinner",
-          path: "/components/loading-spinner/"
-        },
-      ]
-    },
-    {
-      section: "Views",
-      pages: [
-        {
-          title: "Listview",
-          path: "/components/listview/"
-        },
-        {
-          title: "Galleryview",
-          path: "/components/galleryview/"
-        }
-      ]
-    }
-  ];
+  // get the currentPage from sapper stores
+  const { page: currentPage } = stores();
 
   // get the currently active page's title for html title
   let currentTitle = "";

@@ -1,0 +1,93 @@
+[
+  {
+    "section": "Design",
+    "pages": [
+      {
+        "title": "Logo",
+        "path": "/design/logo/"
+      },
+      {
+        "title": "Colors",
+        "path": "/design/colors/"
+      },
+      {
+        "title": "Iconography",
+        "path": "/design/iconography/"
+      },
+      {
+        "title": "Wording",
+        "path": "/design/wording/"
+      },
+      {
+        "title": "Typography",
+        "path": "/design/typography/"
+      },
+      {
+        "title": "Layout",
+        "path": "/design/layout/"
+      }
+    ]
+  },
+  {
+    "section": "Components",
+    "pages": [
+      {
+        "title": "Buttons",
+        "path": "/components/buttons/"
+      },
+      {
+        "title": "Links",
+        "path": "/components/links/"
+      },
+      {
+        "title": "Input",
+        "path": "/components/inputs/"
+      },
+      {
+        "title": "Card",
+        "path": "/components/card/"
+      },
+      {
+        "title": "Search",
+        "path": "/components/search/"
+      },
+      {
+        "title": "Breadcrumbs",
+        "path": "/components/breadcrumbs/"
+      },
+      {
+        "title": "Dialog (Modal)",
+        "path": "/components/dialog/"
+      },
+      {
+        "title": "Notification",
+        "path": "/components/notifications/"
+      },
+      {
+        "title": "Tooltip",
+        "path": "/components/tooltips/"
+      },
+      {
+        "title": "Pagination",
+        "path": "/components/pagination/"
+      },
+      {
+        "title": "Loading Spinner",
+        "path": "/components/loading-spinner/"
+      }
+    ]
+  },
+  {
+    "section": "Views",
+    "pages": [
+      {
+        "title": "Listview",
+        "path": "/components/listview/"
+      },
+      {
+        "title": "Galleryview",
+        "path": "/components/galleryview/"
+      }
+    ]
+  }
+]

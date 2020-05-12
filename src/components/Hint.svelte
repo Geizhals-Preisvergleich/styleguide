@@ -11,7 +11,7 @@
   }
 
   .hint::before {
-    content: '👉';
+    content: "👉";
     display: inline-block;
     font-size: 1.3rem;
     line-height: 1em;

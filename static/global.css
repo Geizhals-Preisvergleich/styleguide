@@ -110,12 +110,14 @@ button {
   font-family: inherit;
 }
 
-tr > th, tr > td {
+tr > th,
+tr > td {
   padding: 0.2rem 1rem 0.2rem 0;
   border-bottom: 1px dashed #e1e1e1;
 }
 
-tr:hover > th, tr:hover > td {
+tr:hover > th,
+tr:hover > td {
   background-color: #f9f9f9;
 }
 
@@ -144,6 +146,7 @@ tr > th {
 .content img {
   border: 1px solid var(--grey-lighter-40);
 }
-.content img.noborder {
+.content img.noborder,
+.content button img {
   border: none;
 }

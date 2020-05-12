@@ -8,7 +8,7 @@ import LoadingSpinner from '../../ui-components/LoadingSpinner.svelte';
 
 ## Small Loading Spinner
 
-used for (examples):
+Usage (non-exhaustive list):
 - Variants page while loading offers
 - Inline image gallery
 
@@ -16,7 +16,7 @@ used for (examples):
 
 ## Large Loading Spinner
 
-used for (examples):
+Usage (non-exhaustive list):
 - Price Alert dialog
 - Fullscreen image gallery
 

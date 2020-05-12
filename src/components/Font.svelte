@@ -4,9 +4,14 @@
   export let fontWeight = "normal";
   export let lineHeight = "1.2";
   export let textTransform = "";
-  let specimen = `Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.`;
 
-  let styleString = `font-family: ${fontFamily}; font-size: ${fontSize}; font-weight: ${fontWeight}; line-height: ${lineHeight}; ${textTransform ? `text-transform: ${textTransform}` : `` }`;
+  let specimen = `Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.`;
+  let styleString = `
+    font-family: ${fontFamily};
+    font-size: ${fontSize}; 
+    font-weight: ${fontWeight}; 
+    line-height: ${lineHeight}; 
+    ${textTransform ? `text-transform: ${textTransform}` : ``}`;
 </script>
 
 <style>

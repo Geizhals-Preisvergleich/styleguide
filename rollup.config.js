@@ -4,6 +4,7 @@ import commonjs from 'rollup-plugin-commonjs';
 import svelte from 'rollup-plugin-svelte';
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
+import json from '@rollup/plugin-json';
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 import { mdsvex } from 'mdsvex';
@@ -50,7 +51,7 @@ export default {
         dedupe,
       }),
       commonjs(),
-
+      json(),
       legacy &&
         babel({
           extensions: ['.js', '.mjs', '.html', '.svelte'],
@@ -105,6 +106,7 @@ export default {
         dedupe,
       }),
       commonjs(),
+      json(),
     ],
     external: Object.keys(pkg.dependencies).concat(
       require('module').builtinModules || Object.keys(process.binding('natives')),
