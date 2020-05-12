@@ -8,7 +8,7 @@ const dev = NODE_ENV === 'development';
 
 polka() // You can also use Express
 	.use(
-		'/styleguide', // only for exporting
+		'/styleguide', // only for exporting, TODO get this from CLI options
 		compression({ threshold: 0 }),
 		sirv('static', { dev }),
 		sapper.middleware()
