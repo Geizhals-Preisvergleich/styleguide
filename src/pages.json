@@ -78,6 +78,10 @@
       {
         "title": "Availability",
         "path": "components/availability/"
+      },
+      {
+        "title": "Rating (Stars)",
+        "path": "components/rating/"
       }
     ]
   },

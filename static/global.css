@@ -19,7 +19,7 @@ body {
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   line-height: 1.5;
   color: #333;
-  background-color: #efefef;
+  /* background-color: #efefef; */
 }
 
 h1,
@@ -95,6 +95,17 @@ a {
 }
 a:hover {
   color: var(--gh-blue-base);
+}
+
+a[href^="https://www.geizhals.at/"]::before, a[href^="https://geizhals.at/"]::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url('gh-favicon-32x32.png') no-repeat;
+  background-size: contain;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
 }
 
 code {

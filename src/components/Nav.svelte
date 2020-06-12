@@ -97,7 +97,7 @@
     width: 20px;
     height: 20px;
     transform: translate(50%, -50%) rotate(45deg);
-    background-color: #fff;
+    background-color: var(--grey-lighter-40);
   }
 
   a {
@@ -127,6 +127,7 @@
     letter-spacing: 0.27em;
     padding-left: 0.13em;
     margin-top: 0.3rem;
+    font-weight: 500;
   }
 </style>
 

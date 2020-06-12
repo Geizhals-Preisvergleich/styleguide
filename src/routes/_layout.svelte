@@ -12,6 +12,7 @@
     background-color: #fff;
     min-height: 100vh;
     padding: 2rem;
+    border-left: 1px solid var(--grey-lighter-40);
   }
 
   main :global(p img) {
