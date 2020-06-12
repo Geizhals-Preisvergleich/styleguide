@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "sapper dev --ext '.svelte .svx'",
     "build": "sapper build --ext '.svelte .svx'",
+    "preexport": "rm -rf __sapper__/export",
     "export": "sapper export --basepath styleguide --ext '.svelte .svx'",
     "start": "node __sapper__/build"
   },
