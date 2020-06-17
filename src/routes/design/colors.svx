@@ -60,7 +60,17 @@ Official geizhals brand color. This color is used commonly throughout the Preisv
   <Color color="#F2F2F2" name="grey-lighter-50" />
 </Colors>
 
+## Offer availability colors
+
+<Colors>
+  <Color color="#3FAD45" name="Available" />
+  <Color color="#EBBE4F" name="Available shortly" />
+  <Color color="#D9D9D9" name="Not available" />
+</Colors>
+
 ## Offer button colors
+
+Note: the Offer button colors are not really part of the color scheme, since only the Offer button on the product page uses them.
 
 See [Offer Button](components/buttons#offer-button)
 
@@ -68,14 +78,6 @@ See [Offer Button](components/buttons#offer-button)
   <Color color="#F7E852" />
   <Color color="#FAD86E" />
   <Color color="#D5B13E" />
-</Colors>
-
-## Offer availability colors
-
-<Colors>
-  <Color color="#3FAD45" name="Available" />
-  <Color color="#EBBE4F" name="Available shortly" />
-  <Color color="#D9D9D9" name="Not available" />
 </Colors>
 
 ## Additional colors
