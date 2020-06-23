@@ -1,6 +1,6 @@
 ```js exec
-import BreadcrumbsDesktop from './../../ui-components/BreadcrumbsDesktop.svelte';
-import BreadcrumbsMobile from './../../ui-components/BreadcrumbsMobile.svelte';
+import BreadcrumbsDesktop from './../../geizhals-components/BreadcrumbsDesktop.svelte';
+import BreadcrumbsMobile from './../../geizhals-components/BreadcrumbsMobile.svelte';
 ```
 
 # Breadcrumbs

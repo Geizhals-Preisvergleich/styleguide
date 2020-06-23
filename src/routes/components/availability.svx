@@ -1,6 +1,6 @@
 ```js exec
 import Hint from '../../components/Hint.svelte';
-import Availability from './../../ui-components/Availability.svelte';
+import Availability from './../../geizhals-components/Availability.svelte';
 ```
 
 # Availability

@@ -1,5 +1,5 @@
 ```js exec
-import LinkRegular from './../../ui-components/LinkRegular.svelte';
+import LinkRegular from './../../geizhals-components/LinkRegular.svelte';
 ```
 
 # Links

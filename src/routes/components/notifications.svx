@@ -1,5 +1,5 @@
 ```js exec
-import Notification from './../../ui-components/Notification.svelte';
+import Notification from './../../geizhals-components/Notification.svelte';
 ```
 
 # Notifications

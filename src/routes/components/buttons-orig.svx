@@ -1,7 +1,7 @@
 ```js exec
-import ButtonOffer from './../../ui-components/ButtonOffer.svelte';
-import ButtonPrimary from './../../ui-components/ButtonPrimary.svelte';
-import ButtonSecondary from './../../ui-components/ButtonSecondary.svelte';
+import ButtonOffer from './../../geizhals-components/ButtonOffer.svelte';
+import ButtonPrimary from './../../geizhals-components/ButtonPrimary.svelte';
+import ButtonSecondary from './../../geizhals-components/ButtonSecondary.svelte';
 ```
 
 # Buttons

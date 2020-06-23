@@ -1,8 +1,8 @@
 ```js exec
-import InputText from '../../ui-components/InputText.svelte';
-import InputTextarea from '../../ui-components/InputTextarea.svelte';
-import InputSelect from '../../ui-components/InputSelect.svelte';
-import InputCheckbox from '../../ui-components/InputCheckbox.svelte';
+import InputText from '../../geizhals-components/InputText.svelte';
+import InputTextarea from '../../geizhals-components/InputTextarea.svelte';
+import InputSelect from '../../geizhals-components/InputSelect.svelte';
+import InputCheckbox from '../../geizhals-components/InputCheckbox.svelte';
 ```
 
 # Inputs

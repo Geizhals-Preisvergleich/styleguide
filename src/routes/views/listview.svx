@@ -1,5 +1,5 @@
 ```js exec
-import Listview from '../../ui-components/Listview.svelte';
+import Listview from '../../geizhals-components/Listview.svelte';
 ```
 
 # Listview
