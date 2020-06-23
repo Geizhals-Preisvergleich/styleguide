@@ -3,6 +3,7 @@ import ButtonOffer from './../../ui-components/ButtonOffer.svelte';
 import ButtonPrimary from './../../ui-components/ButtonPrimary.svelte';
 import ButtonSecondary from './../../ui-components/ButtonSecondary.svelte';
 import ButtonIcon from './../../ui-components/ButtonIcon.svelte';
+import ButtonToggle from './../../ui-components/ButtonToggle.svelte';
 ```
 
 # Buttons
@@ -42,3 +43,14 @@ Disabled state:
 This button type is used to indicate e.g. an external link, like on the Deals and Variant page. In these cases it is most probably actually a link, disguised as a button.
 
 <ButtonIcon />
+
+
+## Toggle Button
+
+The Toggle Button is used to toggle the visibility of initially hidden content. For example on the Product Page we initially show only the most important specs/features of a product and provide a "Show All" Button in the form of a Toggle Button.
+
+<ButtonToggle/>
+
+A variation of the Toggle Button is used to show offers for the products on Variant page:
+
+<ButtonToggle type="large"/>
