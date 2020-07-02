@@ -1,0 +1,39 @@
+```js exec
+import DotsMenu from './../../geizhals-components/DotsMenu.svelte';
+```
+
+# Dots Menu
+
+The **Dots Menu** component (`dots-dropdown` in GH-Repo) is mainly used on `galleryview` and `listview`, but also for ratings. It is placed in the right-top corner and shows options for **products** respectively **ratings**.
+
+Options for **products** are
+
+- show pricehistory
+- add pricealarm
+- add to wishlist
+- compare item
+
+Options for **ratings** are
+
+- report rating
+- delete rating
+
+## Example
+
+The Dots Menu consists of three dots which are generated through CSS (:before, :after). To reduce the size of inital DOM nodes, options are wrapped in `<noscript>`-Tags which get expanded after hovering or clicking on the Dots Menu.
+
+<DotsMenu />
+
+## Examples on listview/galleryview
+
+Listview on SERP:
+
+![Listview List on SERP](styleguide/listview_list.png)
+
+Listview on Variant (mobile)
+
+![Listview Variant mobile](styleguide/listview_variant_mobile.png)
+
+Galleryview on SERP:
+
+![Galleryview on SERP](styleguide/galleryview_serp.jpg)

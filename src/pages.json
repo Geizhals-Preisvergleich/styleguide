@@ -82,6 +82,10 @@
       {
         "title": "Rating (Stars)",
         "path": "components/rating/"
+      },
+      {
+        "title": "Dots Menu",
+        "path": "components/dots-menu/"
       }
     ]
   },
