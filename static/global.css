@@ -118,7 +118,15 @@ code {
 }
 
 button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
   font-family: inherit;
+  margin: initial;
+  padding: initial;
+  cursor: pointer;
+  color: initial;
 }
 
 tr > th,
