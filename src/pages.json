@@ -3,10 +3,6 @@
     "section": "Design",
     "pages": [
       {
-        "title": "Logo",
-        "path": "design/logo/"
-      },
-      {
         "title": "Colors",
         "path": "design/colors/"
       },
@@ -15,16 +11,20 @@
         "path": "design/iconography/"
       },
       {
-        "title": "Wording",
-        "path": "design/wording/"
+        "title": "Layout",
+        "path": "design/layout/"
+      },
+      {
+        "title": "Logo",
+        "path": "design/logo/"
       },
       {
         "title": "Typography",
         "path": "design/typography/"
       },
       {
-        "title": "Layout",
-        "path": "design/layout/"
+        "title": "Wording",
+        "path": "design/wording/"
       }
     ]
   },
@@ -32,60 +32,60 @@
     "section": "Components",
     "pages": [
       {
-        "title": "Buttons",
-        "path": "components/buttons/"
-      },
-      {
-        "title": "Links",
-        "path": "components/links/"
-      },
-      {
-        "title": "Input",
-        "path": "components/inputs/"
-      },
-      {
-        "title": "Card",
-        "path": "components/card/"
-      },
-      {
-        "title": "Search",
-        "path": "components/search/"
+        "title": "Availability",
+        "path": "components/availability/"
       },
       {
         "title": "Breadcrumbs",
         "path": "components/breadcrumbs/"
       },
       {
+        "title": "Buttons",
+        "path": "components/buttons/"
+      },
+      {
+        "title": "Card",
+        "path": "components/card/"
+      },
+      {
         "title": "Dialog (Modal)",
         "path": "components/dialog/"
       },
       {
-        "title": "Notification",
-        "path": "components/notifications/"
+        "title": "Dots Menu",
+        "path": "components/dots-menu/"
       },
       {
-        "title": "Tooltip",
-        "path": "components/tooltips/"
+        "title": "Input",
+        "path": "components/inputs/"
       },
       {
-        "title": "Pagination",
-        "path": "components/pagination/"
+        "title": "Links",
+        "path": "components/links/"
       },
       {
         "title": "Loading Spinner",
         "path": "components/loading-spinner/"
       },
       {
-        "title": "Availability",
-        "path": "components/availability/"
+        "title": "Notification",
+        "path": "components/notifications/"
+      },
+      {
+        "title": "Pagination",
+        "path": "components/pagination/"
       },
       {
         "title": "Rating (Stars)",
         "path": "components/rating/"
       },
       {
-        "title": "Dots Menu",
-        "path": "components/dots-menu/"
+        "title": "Search",
+        "path": "components/search/"
+      },
+      {
+        "title": "Tooltip",
+        "path": "components/tooltips/"
       }
     ]
   },
@@ -93,12 +93,12 @@
     "section": "Views",
     "pages": [
       {
-        "title": "Listview",
-        "path": "views/listview/"
-      },
-      {
         "title": "Galleryview",
         "path": "views/galleryview/"
+      },
+      {
+        "title": "Listview",
+        "path": "views/listview/"
       }
     ]
   }
