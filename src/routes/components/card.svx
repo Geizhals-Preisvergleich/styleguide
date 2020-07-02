@@ -44,9 +44,3 @@ Legacy cards are very similar to modern Cards, but uses a drop-shadow instead of
 - Wishlist
 - Price Alerts
 - Händler Ratings
-
-### Example of legacy Card
-
-Product Header and Table of Contents on Product page:
-
-![Legacy Cards on Product page](styleguide/card_legacy_product.png)
