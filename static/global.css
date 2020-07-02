@@ -6,7 +6,10 @@
   --grey-base: #737373;
   --grey-darker-5: #666666;
   --grey-lighter-20: #a6a6a6;
+  --grey-lighter-25: #b3b3b3;
   --grey-lighter-40: #d9d9d9;
+  --green-lighter-10: #38ad3e;
+  --apricot-lighter-5: #ffb61a;
 }
 
 html {

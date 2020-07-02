@@ -354,7 +354,7 @@
     outline: 0;
   }
   .listview__availability.available {
-    background-color: #38ad3e;
+    background-color: var(--green-lighter-10);
   }
   /*! CSS Used from: https://gzhls.at/gsa/_4961d3ab2e/ghpak/productcompare_new/productcompare_new.ghp_linkedJsDefer.css */
   .compare-toggle {
