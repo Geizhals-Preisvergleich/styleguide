@@ -79,7 +79,7 @@
   .dots-dropdown__list-wrapper {
     display: none;
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     padding: 36px 0 0;
     z-index: 1;
