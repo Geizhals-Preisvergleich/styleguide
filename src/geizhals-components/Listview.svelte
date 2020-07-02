@@ -1,6 +1,7 @@
 <script>
   import PVBase from './../components/PVBase.svelte'
   import Code from './../components/Code.svelte'
+  import DotsMenu from './DotsMenu.svelte'
   let opened = false
 
   const toggleOpen = () => {
@@ -88,110 +89,7 @@
   .button--full {
     width: 100%;
   }
-  /*! CSS Used from: https://gzhls.at/gsa/_4961d3ab2e/ghpak/dots-dropdown/dots-dropdown.ghp.css */
-  .dots-dropdown {
-    display: flex;
-    position: relative;
-  }
-  .dots-dropdown:hover:not(.dots-dropdown--mobile) .dots-dropdown__link {
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.25);
-    z-index: 3;
-  }
-  .dots-dropdown:hover:not(.dots-dropdown--mobile) .dots-dropdown__link__dots,
-  .dots-dropdown:hover:not(.dots-dropdown--mobile) .dots-dropdown__link__dots:after,
-  .dots-dropdown:hover:not(.dots-dropdown--mobile) .dots-dropdown__link__dots:before {
-    background: #059;
-  }
-  .dots-dropdown:hover:not(.dots-dropdown--mobile) .dots-dropdown__list-wrapper {
-    display: block;
-    z-index: 2;
-  }
-  .dots-dropdown__link {
-    display: inline-block;
-    position: relative;
-    padding: 0.5rem;
-    background: #fdfdfd;
-    border-radius: 50%;
-  }
-  .dots-dropdown__link__dots,
-  .dots-dropdown__link__dots:after,
-  .dots-dropdown__link__dots:before {
-    display: inline-block;
-    height: 0.25rem;
-    width: 0.25rem;
-    background: #737373;
-    border-radius: 0.25rem;
-  }
-  .dots-dropdown__link__dots:after,
-  .dots-dropdown__link__dots:before {
-    content: '';
-    position: absolute;
-  }
-  .dots-dropdown__link__dots:after {
-    bottom: 1px;
-  }
-  .dots-dropdown__link__dots:before {
-    top: 1px;
-  }
-  .dots-dropdown__link__dots-wrapper {
-    display: inline-block;
-    position: relative;
-    padding: 0.5rem;
-    line-height: 0;
-  }
-  .dots-dropdown__list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    width: 240px;
-    border: 1px solid #d9d9d9;
-    border-radius: 0.25rem;
-    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.25);
-    background: #fdfdfd;
-  }
-  .dots-dropdown__list-wrapper {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 36px 0 0;
-    z-index: 1;
-  }
-  .dots-dropdown__list-item {
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid #d9d9d9;
-  }
-  .dots-dropdown__list-item:last-child {
-    border-bottom: 0;
-  }
-  .dots-dropdown__list-item:hover {
-    background: #f4f6fb;
-  }
-  .dots-dropdown__list-item:hover:first-child {
-    border-radius: 3px 3px 0 0;
-  }
-  .dots-dropdown__list-item:hover:last-child {
-    border-radius: 0 0 3px 3px;
-  }
-  .dots-dropdown__list-link {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    text-decoration: none;
-  }
-  .dots-dropdown__list-link,
-  .dots-dropdown__list-link:visited {
-    color: #000;
-  }
-  .dots-dropdown__list-link__image {
-    width: 24px;
-    height: 24px;
-    margin-right: 0.5rem;
-  }
-  .dots-dropdown .compare-toggle.notInList .dots-dropdown__list-text-remove {
-    display: none;
-  }
+
   /*! CSS Used from: https://gzhls.at/gsa/_4961d3ab2e/ghpak/listview/listview.ghp.css */
   .listview__item {
     position: relative;
@@ -598,79 +496,7 @@
           </div>
         </div>
         <div class="listview__options-wrapper">
-          <div class="dots-dropdown ">
-            <a href="#" class="dots-dropdown__link" title="Produkt-Optionen">
-              <span class="dots-dropdown__link__dots-wrapper">
-                <span class="dots-dropdown__link__dots" />
-              </span>
-            </a>
-            <div class="dots-dropdown__list-wrapper">
-              <ul class="dots-dropdown__list">
-                <li class="dots-dropdown__list-item">
-                  <a href="#" class="dots-dropdown__list-link">
-                    <img
-                      src="//gzhls.at/b/svgs/pricehistory.svg"
-                      alt="Preisentwicklung"
-                      class="dots-dropdown__list-link__image" />
-                    Preisentwicklung öffnen
-                  </a>
-                </li>
-                <li class="dots-dropdown__list-item">
-                  <a href="#" class="dots-dropdown__list-link">
-                    <img
-                      src="//gzhls.at/b/svgs/pricealarm.svg"
-                      alt="Preisalarm"
-                      class="dots-dropdown__list-link__image" />
-                    Preisalarm setzen
-                  </a>
-                </li>
-                <li class="dots-dropdown__list-item hide-on-nojs">
-                  <a href="#" class="dots-dropdown__list-link">
-                    <img
-                      src="//gzhls.at/b/svgs/wishlist.svg"
-                      alt="Preisalarm"
-                      class="dots-dropdown__list-link__image" />
-                    Zur Wunschliste hinzufügen
-                  </a>
-                </li>
-                <li class="dots-dropdown__list-item">
-                  <a
-                    href="#"
-                    class="dots-dropdown__list-link compare-toggle notInList"
-                    data-name="Nintendo Switch schwarz/blau/rot (2019)"
-                    data-href="#"
-                    data-id="2135460"
-                    data-img="https://gzhls.at/i/54/60/2135460-s0.jpg">
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="dots-dropdown__list-link__image">
-                      <path
-                        d="m9.01 14h-7.01v2h7.01v3l3.99-4-3.99-4zm5.98-1v-3h7.01v-2h-7.01v-3l-3.99
-                        4z"
-                        fill="#059" />
-                    </svg>
-                    <span class="dots-dropdown__list-text-add">Zur Vergleichsliste hinzufügen</span>
-                    <span class="dots-dropdown__list-text-remove">
-                      Von Vergleichsliste entfernen
-                    </span>
-                  </a>
-                  <noscript>
-                    <label>
-                      <input
-                        class="nojs-compare-toggle"
-                        type="checkbox"
-                        name="cmp"
-                        value="2135460" />
-                      Vergleichen
-                    </label>
-                  </noscript>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <DotsMenu />
         </div>
       </div>
     </div>
