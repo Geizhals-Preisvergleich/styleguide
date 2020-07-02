@@ -23,13 +23,13 @@
     outline: 0;
   }
   .galleryview__availability.available {
-    background-color: #3fad45;
+    background-color: #38ad3e;
   }
   .galleryview__availability.shortly {
-    background-color: #ebbe4f;
+    background-color: #ffb61a;
   }
   .galleryview__availability.any {
-    background-color: #d9d9d9;
+    background-color: #b3b3b3;
   }
   /*! CSS Used from: https://gzhls.at/gsa/_b3c1b87bae/ghpak/tooltip/tooltip.ghp_linkedJsDefer.css */
   [aria-label][data-tooltip-pos] {

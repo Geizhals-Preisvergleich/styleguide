@@ -456,7 +456,7 @@
     outline: 0;
   }
   .listview__availability.available {
-    background-color: #3fad45;
+    background-color: #38ad3e;
   }
   /*! CSS Used from: https://gzhls.at/gsa/_4961d3ab2e/ghpak/productcompare_new/productcompare_new.ghp_linkedJsDefer.css */
   .compare-toggle {
