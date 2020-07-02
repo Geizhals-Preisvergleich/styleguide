@@ -1,3 +1,7 @@
+<script>
+  export let enableStyles = true;
+</script>
+
 <style>
   .pv-base {
     font-size: 11px !important;
@@ -30,6 +34,6 @@
   }
 </style>
 
-<div class="pv-base">
+<div class:pv-base={enableStyles}>
   <slot />
 </div>

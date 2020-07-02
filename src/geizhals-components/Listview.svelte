@@ -496,7 +496,7 @@
           </div>
         </div>
         <div class="listview__options-wrapper">
-          <DotsMenu />
+          <DotsMenu enableStyles={false} />
         </div>
       </div>
     </div>

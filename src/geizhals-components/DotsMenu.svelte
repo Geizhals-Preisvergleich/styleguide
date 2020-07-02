@@ -1,5 +1,7 @@
 <script>
   import PVBase from "./../components/PVBase.svelte";
+
+  export let enableStyles = true;
 </script>
 
 <style>
@@ -128,7 +130,7 @@
   }
 </style>
 
-<PVBase>
+<PVBase enableStyles={enableStyles}>
   <div class="dots-dropdown compare-toggle notInList">
     <button
       type="button"
