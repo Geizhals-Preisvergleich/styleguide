@@ -76,6 +76,10 @@
         "path": "components/pagination/"
       },
       {
+        "title": "Range Slider",
+        "path": "components/range-slider/"
+      },
+      {
         "title": "Rating (Stars)",
         "path": "components/rating/"
       },

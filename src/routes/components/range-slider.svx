@@ -1,0 +1,25 @@
+```js exec
+import RangeSlider from './../../geizhals-components/RangeSlider.svelte';
+```
+
+# Range Slider
+
+The **Range Slider** component (`rangeslider` in GH-Repo) is used on `searchpage` and `dealspage`. You can set min and max values by dragging two handles with mouse or touch. The JS component uses the library `nouislider` from [Léon Gersen](https://github.com/leongersen/noUiSlider).
+
+It consists of the slider component, a title, two input fields and an update button. The slider and the input fields get updated accordingly when you drag or insert a number manually.
+
+## Example
+
+This example is a lite version with limited functionality.
+
+<RangeSlider />
+
+## Screenshots
+
+Searchpage:
+
+![Searchpage Range Slider](styleguide/rangeslider/rangeslider-searchpage.jpg)
+
+Dealspage:
+
+![Dealspage Range Slider](styleguide/rangeslider/rangeslider-dealspage.jpg)
