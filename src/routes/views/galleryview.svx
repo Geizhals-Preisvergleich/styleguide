@@ -1,4 +1,5 @@
 ```js exec
+import Galleryview from '../../geizhals-components/Galleryview.svelte';
 ```
 
 # Galleryview
@@ -9,7 +10,11 @@ Certain page types (whats) allow the user to switch between [Listview](views/lis
 
 Depending on the available screen estate, Galleryview items are usually displayed in a grid of 2-5 columns.
 
-### Examples
+## Example
+
+<Galleryview />
+
+## Screenshots
 
 Galleryview on Searchresults page:
 
