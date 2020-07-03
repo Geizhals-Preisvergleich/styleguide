@@ -10,16 +10,6 @@
 </script>
 
 <style>
-  /*! CSS Used from: Embedded */
-  *,
-  :after,
-  :before {
-    box-sizing: border-box;
-  }
-  a,
-  a:visited {
-    color: #037;
-  }
   .visually-hidden {
     position: absolute !important;
     height: 1px;
@@ -28,68 +18,6 @@
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
   }
-  img {
-    border: 0;
-  }
-  ul {
-    display: block;
-  }
-  ul {
-    list-style-type: disc;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    -webkit-padding-start: 40px;
-  }
-  li {
-    margin: 2px 0 0;
-  }
-  /*! CSS Used from: https://gzhls.at/gsa/_4961d3ab2e/ghpak/css_inputelements/css_inputelements.ghp.css */
-  a.button,
-  a.button:hover,
-  a.button:visited {
-    color: #fdfdfd;
-    text-decoration: none;
-  }
-  .button {
-    align-items: center;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    background: #059;
-    border-radius: 0.25rem;
-    border: none;
-    color: #fdfdfd;
-    cursor: pointer;
-    display: inline-flex;
-    font-size: 0.875rem;
-    height: 35px;
-    justify-content: center;
-    line-height: inherit;
-    min-width: 96px;
-    opacity: 1;
-    outline: none;
-    overflow: auto;
-    padding: 0 1rem;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    margin: 0.5rem 0;
-  }
-  .button:focus,
-  .button:hover {
-    background-color: #0071cc;
-  }
-  .button:disabled {
-    opacity: 0.7;
-    pointer-events: none;
-  }
-  .button--full {
-    width: 100%;
-  }
-
   /*! CSS Used from: https://gzhls.at/gsa/_4961d3ab2e/ghpak/listview/listview.ghp.css */
   .listview__item {
     position: relative;
@@ -127,6 +55,7 @@
     max-height: 50px;
     max-width: 100%;
     mix-blend-mode: multiply;
+    border: none;
   }
   .listview__image-wrapper {
     display: flex;
@@ -381,61 +310,6 @@
     background: url(//gzhls.at/b/svgs/stars_flat.svg) repeat-x;
     background-position: 0 -1px;
     background-size: 13px 29px;
-  }
-  /*! CSS Used from: https://gzhls.at/gsa/_4961d3ab2e/ghpak/tooltip/tooltip.ghp_linkedJsDefer.css */
-  [aria-label][data-tooltip-pos] {
-    position: relative;
-    cursor: pointer;
-  }
-  [aria-label][data-tooltip-pos]:after {
-    opacity: 0;
-    pointer-events: none;
-    font-size: 0.75rem;
-    background: rgba(0, 0, 0, 0.95);
-    border-radius: 0.125rem;
-    color: #fdfdfd;
-    content: attr(aria-label);
-    padding: 0.375rem 0.75rem;
-    position: absolute;
-    white-space: nowrap;
-    z-index: 10;
-  }
-  [aria-label][data-tooltip-pos]:before {
-    width: 0;
-    height: 0;
-    border: 5px solid transparent;
-    border-top-color: rgba(0, 0, 0, 0.95);
-    opacity: 0;
-    pointer-events: none;
-    content: '';
-    position: absolute;
-    z-index: 10;
-  }
-  [aria-label][data-tooltip-pos]:hover:after,
-  [aria-label][data-tooltip-pos]:hover:before,
-  [aria-label][data-tooltip-pos]:not([data-tooltip-nofocus]):focus:after,
-  [aria-label][data-tooltip-pos]:not([data-tooltip-nofocus]):focus:before {
-    opacity: 1;
-    pointer-events: none;
-  }
-  [aria-label][data-tooltip-pos][data-tooltip-pos='down-right']:after {
-    right: 0;
-    margin-top: 10px;
-    top: 100%;
-    transform: translateY(0);
-  }
-  [aria-label][data-tooltip-pos][data-tooltip-pos='down-right']:before {
-    width: 0;
-    height: 0;
-    border: 5px solid transparent;
-    border-bottom-color: rgba(0, 0, 0, 0.95);
-    right: 5px;
-    top: 100%;
-    transform: translateY(0);
-  }
-  [aria-label][data-tooltip-pos][data-tooltip-pos='down-right']:hover:after,
-  [aria-label][data-tooltip-pos][data-tooltip-pos='down-right']:hover:before {
-    transform: translate(0);
   }
 </style>
 
