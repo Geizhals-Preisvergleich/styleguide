@@ -40,7 +40,5 @@ Variant Header:
 
 Legacy cards are very similar to modern Cards, but uses a drop-shadow instead of border. This type of card is used on these pages, among others:
 
-- Productpage
-- Wishlist
 - Price Alerts
 - Händler Ratings
