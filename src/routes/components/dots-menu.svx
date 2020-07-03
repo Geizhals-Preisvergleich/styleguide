@@ -24,7 +24,7 @@ The Dots Menu consists of three dots which are generated through CSS (:before, :
 
 <DotsMenu />
 
-## Examples on listview/galleryview
+## Screenshots
 
 Listview on SERP:
 
