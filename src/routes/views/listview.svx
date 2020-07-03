@@ -11,18 +11,19 @@ It is currently used on these pages, in slightly different ways:
 - Searchresults
 - Variant (mobile)
 - Variant offers
+- Dealspage
 
-### Example Listview component
+## Example
 
 Single search result as displayed on Searchresults page:
 
 <Listview />
 
+## Screenshots
+
 List of Listview components on Searchresults page:
 
 ![Listview List on SERP](styleguide/listview_list.png)
-
-### Other examples
 
 List of Listview components on Variant page (mobile):
 
