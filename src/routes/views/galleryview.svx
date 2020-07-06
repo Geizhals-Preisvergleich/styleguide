@@ -14,6 +14,7 @@ Dependencies:
 
 - Dots Menu (dots-dropdown)
 - CSS Stars (css_stars)
+- Tooltips (tooltip)
 
 ## Example
 
