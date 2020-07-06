@@ -88,6 +88,10 @@
         "path": "components/search/"
       },
       {
+        "title": "Switchview",
+        "path": "components/switchview/"
+      },
+      {
         "title": "Tooltip",
         "path": "components/tooltips/"
       }

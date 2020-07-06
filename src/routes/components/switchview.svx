@@ -1,0 +1,35 @@
+```js exec
+import SwitchView from '../../geizhals-components/SwitchView.svelte';
+```
+
+# Switchview
+
+Switchview is used to toggle between the views **galleryview** and **listview**. It should be placed in the top-left corner of the container.
+
+You can find this GHPak on:
+
+- Dealspage
+- Searchpage
+- Categorylist
+
+Dependencies:
+
+- Tooltips
+
+## Example
+
+<SwitchView />
+
+## Screenshots
+
+Searchpage:
+
+![Searchpage](styleguide/searchpage.jpg)
+
+Dealspage:
+
+![Dealspage](styleguide/dealspage.jpg)
+
+Categorylist:
+
+![Categorylist](styleguide/categorylist.jpg)
