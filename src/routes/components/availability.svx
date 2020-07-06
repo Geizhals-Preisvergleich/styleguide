@@ -12,6 +12,10 @@ It comes in two forms:
 - as a small circle, see [Dot](#dot)
 - as a vertical box, see [Box](#box)
 
+Dependencies:
+
+- Tooltips
+
 <Hint>
   Going forward we aim to use the <strong>Availability Dot</strong> exclusively and gradually replace the Availability Box.
 </Hint>
@@ -22,7 +26,6 @@ The Availability Dot is used throughout the site, especially in newer views like
 
 Item is available:
 <Availability availability="available" />
-
 
 Item is available shortly:
 <Availability availability="shortly" />
@@ -42,5 +45,5 @@ You can see the Availability Box in action on these pages:
 - Category page (mobile)
 - Top 100
 
-Example:  
+Example:
 <img src="styleguide/availability_cat_page.jpg" alt="Screenshot of the mobile category page" style="max-width: 360px;"/>

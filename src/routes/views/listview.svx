@@ -13,6 +13,11 @@ It is currently used on these pages, in slightly different ways:
 - Variant offers
 - Dealspage
 
+Dependencies:
+
+- Dots Menu (dots-dropdown)
+- CSS Stars (css_stars)
+
 ## Example
 
 Single search result as displayed on Searchresults page:

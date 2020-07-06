@@ -10,6 +10,11 @@ Certain page types (whats) allow the user to switch between [Listview](views/lis
 
 Depending on the available screen estate, Galleryview items are usually displayed in a grid of 2-5 columns.
 
+Dependencies:
+
+- Dots Menu (dots-dropdown)
+- CSS Stars (css_stars)
+
 ## Example
 
 <Galleryview />
