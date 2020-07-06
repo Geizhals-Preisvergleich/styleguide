@@ -18,8 +18,8 @@ This example is a lite version with limited functionality.
 
 Searchpage:
 
-![Searchpage Range Slider](styleguide/rangeslider/rangeslider-searchpage.jpg)
+![Searchpage Range Slider](styleguide/searchpage.jpg)
 
 Dealspage:
 
-![Dealspage Range Slider](styleguide/rangeslider/rangeslider-dealspage.jpg)
+![Dealspage Range Slider](styleguide/dealspage.jpg)
