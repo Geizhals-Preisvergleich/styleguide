@@ -5,10 +5,12 @@ import * as sapper from '@sapper/server';
 
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
+const basePath = process.env.EXPORT_MODE === 'nobasepath' ? '/' : '/styleguide';
+console.log("basePath: " + basePath);
 
 polka() // You can also use Express
 	.use(
-		'/styleguide', // only for exporting, TODO get this from CLI options
+		basePath, // only for exporting
 		compression({ threshold: 0 }),
 		sirv('static', { dev }),
 		sapper.middleware()
