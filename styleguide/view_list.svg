@@ -1,0 +1,11 @@
+<svg
+  clip-rule="evenodd"
+  fill-rule="evenodd"
+  stroke-linejoin="round"
+  stroke-miterlimit="2"
+  viewBox="0 0 17 14"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="#a6a6a6"
+  class="">
+    <path d="m-3-5h24v24h-24z" fill="none"/><path d="m1 9h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1h-2c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1zm0 5h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1h-2c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1zm0-10h2c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1h-2c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1zm5 5h10c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1h-10c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1zm0 5h10c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1h-10c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1zm-1-13v2c0 .55.45 1 1 1h10c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1h-10c-.55 0-1 .45-1 1z" fill-rule="nonzero"/>
+</svg>

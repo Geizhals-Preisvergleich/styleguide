@@ -1,0 +1,174 @@
+:root {
+  --gh-blue-base: #005599;
+  --gh-blue-darker-5: #004780;
+  --gh-blue-lighter-65: #f0f2f5;
+  --grey-darker-20: #555;
+  --grey-base: #737373;
+  --grey-darker-5: #666666;
+  --grey-lighter-20: #a6a6a6;
+  --grey-lighter-25: #b3b3b3;
+  --grey-lighter-40: #d9d9d9;
+  --green-lighter-10: #38ad3e;
+  --apricot-lighter-5: #ffb61a;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  line-height: 1.5;
+  color: #333;
+  /* background-color: #efefef; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 00 0 0.5em 0;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.03em;
+  position: relative;
+}
+h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  border-bottom: 1px solid #aaa;
+  width: 5rem;
+}
+
+h2 {
+  margin-top: 4rem;
+  font-size: 1.6rem;
+}
+
+h1 + h2 {
+  margin-top: 3rem;
+}
+
+h3 {
+  margin-top: 3rem;
+}
+
+h2 + h3 {
+  margin-top: 2rem;
+}
+
+.header-anchor {
+  opacity: 0;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+h1:hover .header-anchor,
+h2:hover .header-anchor,
+h3:hover .header-anchor,
+h4:hover .header-anchor,
+h5:hover .header-anchor,
+h6:hover .header-anchor {
+  opacity: 0.5;
+  pointer-events: all;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--gh-blue-darker-5);
+}
+a:hover {
+  color: var(--gh-blue-base);
+}
+
+a[href^="https://www.geizhals.at/"]::before, a[href^="https://geizhals.at/"]::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url('gh-favicon-32x32.png') no-repeat;
+  background-size: contain;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+
+code {
+  font-family: menlo, inconsolata, monospace;
+  font-size: calc(1em - 2px);
+  color: #555;
+  background-color: #f0f0f0;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
+}
+
+button {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+  font-family: inherit;
+  margin: initial;
+  padding: initial;
+  cursor: pointer;
+  color: initial;
+}
+
+tr > th,
+tr > td {
+  padding: 0.2rem 1rem 0.2rem 0;
+  border-bottom: 1px dashed #e1e1e1;
+}
+
+tr:hover > th,
+tr:hover > td {
+  background-color: #f9f9f9;
+}
+
+tr > th {
+  text-align: left;
+  border-bottom-style: solid;
+}
+
+#sapper {
+  display: flex;
+}
+
+.content hr {
+  margin: 3rem 0;
+  width: 5rem;
+  border: 1px solid rgb(208, 208, 208);
+  border-bottom: 0;
+}
+
+/* overrides for prism */
+.content code[class*='language-'],
+.content pre[class*='language-'] {
+  font-size: 0.8rem;
+}
+
+.content img {
+  border: 1px solid var(--grey-lighter-40);
+}
+.content img.noborder,
+.content button img {
+  border: none;
+}
