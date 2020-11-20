@@ -14,5 +14,7 @@ Usually it is used in conjunction with other UI to control the appearance of the
 
 <Pagination />
 
-Example of a list controls including Pagination on Search Results page:  
+## Usage examples
+
+Example of a list controls including Pagination on Search Results page:
 ![Pagination on SERP](styleguide/pagination_serp.png)

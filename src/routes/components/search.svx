@@ -6,7 +6,7 @@ import PVBase from './../../components/PVBase.svelte';
 
 ## Global Search
 
-Global search bar lives in the header of the Preisvergleich website, where it's highly discoverable.
+Global search bar lives in the header of the Preisvergleich website where it's highly discoverable.
 
 Desktop:  
 ![Search](styleguide/searchbar.png)

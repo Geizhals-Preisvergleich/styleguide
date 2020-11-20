@@ -14,7 +14,7 @@ This example is a lite version with limited functionality.
 
 <RangeSlider />
 
-## Screenshots
+## Usage examples
 
 Searchpage:
 

@@ -1,3 +1,15 @@
+```js exec
+import Badge from './../../geizhals-components/Badge.svelte';
+```
+
 # Badges
 
-TODO (e.g "Varianten"-Badge in Search Autocomplete)
+<Badge/>
+
+## Usage examples
+
+Search Autocomplete Resultslist:
+<img src="styleguide/badge_search_autocomplete.png" alt="Screenshot of Search Autocomplete UI"/>
+
+Result on the Search Results page:
+<img src="styleguide/badge_searchresults.png" alt="Screenshot of a result on the Searchresults page"/>
