@@ -1,0 +1,3 @@
+# Badges
+
+TODO (e.g "Varianten"-Badge in Search Autocomplete)

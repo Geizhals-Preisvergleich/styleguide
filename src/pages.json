@@ -36,6 +36,10 @@
         "path": "components/availability/"
       },
       {
+        "title": "Badges",
+        "path": "components/badges/"
+      },
+      {
         "title": "Breadcrumbs",
         "path": "components/breadcrumbs/"
       },
