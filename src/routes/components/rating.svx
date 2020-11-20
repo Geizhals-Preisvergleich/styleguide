@@ -19,3 +19,5 @@ The Rating component consists of a visualisation of the rating (i.e. stars icons
 
 <Ratings type="large"/>
 
+### TODO: this needs to be updated
+

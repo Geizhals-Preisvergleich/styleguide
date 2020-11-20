@@ -84,6 +84,9 @@ List of most commonly used icons on the Geizhals Preisvergleich website:
 <Icon src="styleguide/view_gallery.svg" label="View: Gallery" />
 <Icon src="styleguide/wishlist.svg" label="Wishlist" />
 
+### TODO: add arrows/chevrons
+### TODO: add rss icon
+
 ## Country Flags
 
 <Icon src="styleguide/flags/uk.svg" label="Flag: UK" />
