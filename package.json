@@ -7,6 +7,7 @@
     "build": "sapper build --ext '.svelte .svx'",
     "preexport": "rm -rf __sapper__/export",
     "export": "sapper export --basepath styleguide --ext '.svelte .svx'",
+    "postexport": "cp .nojekyll __sapper__/export/styleguide",
     "export:nobasepath": "EXPORT_MODE=nobasepath sapper export --ext '.svelte .svx'",
     "start": "node __sapper__/build"
   },
