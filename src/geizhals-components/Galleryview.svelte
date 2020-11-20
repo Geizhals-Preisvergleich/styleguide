@@ -203,7 +203,7 @@
 <PVBase>
   <div class="galleryview__item" data-index="3">
     <div class="galleryview__image-wrapper">
-        <a href="apple-iphone-11-64gb-schwarz-a2132220.html"
+        <a href="#"
             class="galleryview__image-link"
             aria-hidden="true" tabindex="-1">
             <img src="https://gzhls.at/i/22/20/2132220-m0.jpg"
@@ -212,7 +212,7 @@
         </a>
     </div>
     <h3 class="galleryview__name">
-        <a href="apple-iphone-11-64gb-schwarz-a2132220.html"
+        <a href="#"
             class="galleryview__name-link" title="Apple iPhone 11 64GB schwarz">
             Apple iPhone 11 64GB schwarz
             <div class="shorten"></div>
@@ -237,7 +237,7 @@
                 </a>
             </div>
             <div class="galleryview__offercount">
-                <a href="apple-iphone-11-64gb-schwarz-a2132220.html#offerlist"
+                <a href="#"
                     class="galleryview__offercount-link">
                     60 Angebote
                 </a>
@@ -252,7 +252,7 @@
                             ab
                         </span>
                         <a rel="noopener"
-                            href="apple-iphone-11-64gb-schwarz-a2132220.html#offerlist"
+                            href="#"
                             class="galleryview__price-link">
                             <span class="price">€ 713,08</span>
                         </a>
