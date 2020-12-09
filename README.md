@@ -38,15 +38,15 @@ run `npm run dev` and open `http://localhost:3000/styleguide`
 
 run `npm run export`. The exported files are placed in `__sapper__/export/styleguide`. These files can be served as static files with any webserver. (try `npx serve __sapper__/export`). If you don't want './styleguide' as the base-path, use:
 
-## Build without 'styleguide'
-run `npm run export:nobasepath`
+## Build without 'styleguide' folder
+if you want to serve the styleguide from `/` instead of `/styleguide`, run `npm run export:nobasepath`
 
 ## What is MDsveX?
 
 MDsveX is a port of [MDX](https://mdxjs.com/) for the Svelte framework. Now, what do all of these mean?
 
 **MDX:**
-Think of MDX as "Markdown Extended". It let's you use JSX/React components your markdown pages. This makes MDX very versatile.
+Think of MDX as "Markdown Extended". It let's you use React components your markdown pages. This makes MDX very versatile.
 
 **MDsveX:**
 [MDsveX](https://github.com/pngwn/MDsveX) is the same idea as MDX, but for usage with Svelte components instead of React components. Since this styleguide is build with Svelte it, we are using MDsveX instead of MDX, but the same principles apply.
