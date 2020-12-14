@@ -1,0 +1,30 @@
+```js exec
+```
+
+# Filterview
+
+Filterview is a two-column layout consisting of the _filter_ and the _content area_ displaying the filtered results.
+
+<img src="styleguide/filterview_sketched.png" alt="Filterview (sketch)" style="max-width: 500px"/>
+
+## Layout
+
+- Large screens (> 1400px): the _filter_ is displayed as a regular column.
+- Smaller screens (< 1400px): the _filter_ is displayed in a more compact way but needs to be uncollapsed to interact with.
+- Mobile: _filter_ is displayed as a fullscreen overlay and needs to be opened first.
+
+## Screenshots
+
+Filterview on large desktop:
+
+<img src="styleguide/filterview_large.png" alt="Filterview on large desktop" style="max-width: 500px"/>
+
+
+Filterview on small desktop:
+
+<img src="styleguide/filterview_small.png" alt="Filterview on small desktop" style="max-width: 500px"/>
+
+
+Filterview on mobile:
+
+<img src="styleguide/filterview_mobile.png" alt="Filterview on mobile Deals" style="max-width: 300px"/>
