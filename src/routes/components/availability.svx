@@ -46,4 +46,5 @@ You can see the Availability Box in action on these pages:
 - Top 100
 
 Example:
+
 <img src="styleguide/availability_cat_page.jpg" alt="Screenshot of the mobile category page" style="max-width: 360px;"/>
