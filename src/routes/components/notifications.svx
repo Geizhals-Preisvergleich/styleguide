@@ -15,24 +15,25 @@ Notifications:
 - can always be closed using the X-button
 - can stack up to 5 Notifications at a time, whereas the newest Notification is at the top
 - support swipe-to-dismiss on mobile
+- support (limited) markdown syntax (bold, italic, links)
 
 ## Types of Notifications
 
 There are currently three types of notifications:
 
-Info:  
+Info:
 <Notification
   type="info"
   message="I am an info notification! I can contain <strong>bold text too!</strong>"
 />
 
-Success:  
+Success:
 <Notification
   type="success"
   message="I am a success notification! I can contain <strong>bold text too!</strong>"
 />
 
-Error:  
+Error:
 <Notification
   type="error"
   message="I am an error notification! I can contain <strong>bold text too!</strong>"
