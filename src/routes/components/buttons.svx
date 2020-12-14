@@ -28,6 +28,11 @@ Disabled state:
 
 <ButtonPrimary disabled />
 
+Small state:
+
+<ButtonPrimary small />
+
+
 ## Secondary Button
 
 Use the Secondary Button for triggering a – well – secondary option, like closing a modal.
@@ -37,6 +42,12 @@ Use the Secondary Button for triggering a – well – secondary option, like cl
 Disabled state:
 
 <ButtonSecondary disabled />
+
+Small state:
+
+<ButtonSecondary small />
+
+
 
 ## Button with Icon
 
@@ -54,3 +65,7 @@ The Toggle Button is used to toggle the visibility of initially hidden content. 
 A variation of the Toggle Button is used to show offers for the products on Variant page:
 
 <ButtonToggle type="large"/>
+
+## Filter Button
+
+The Filter Button is based on Secondary Button, but it is
