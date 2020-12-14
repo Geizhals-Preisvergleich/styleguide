@@ -10,12 +10,12 @@ Notifications:
 
 - are shown in the top right corner of the screen
 - feature some text and an icon depending on the type of notification.
+- support (limited) markdown syntax (bold, italic, links)
 - will disappear after 3.8 seconds (can be configured)
 - except for when hovering over the Notification ([_try it below!_](#types-of-notifications))
 - can always be closed using the X-button
 - can stack up to 5 Notifications at a time, whereas the newest Notification is at the top
 - support swipe-to-dismiss on mobile
-- support (limited) markdown syntax (bold, italic, links)
 
 ## Types of Notifications
 
